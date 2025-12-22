@@ -518,10 +518,11 @@ class AdvancedBankingPipeline:
                     self.logger.info(f"Table mise à jour : {nb_lignes_conservees:,} + {len(df_to_save):,} = {nb_lignes_conservees + len(df_to_save):,} lignes")
 
                 except Exception as e:
-                    # Si la lecture échoue (table vide ou autre), on fait un simple append
-                    self.logger.warning(f"Impossible de lire la table existante ({e}), utilisation de append")
-                    df_spark.write.mode("append").saveAsTable(output_table)
-                    self.logger.info(f"{len(df_to_save):,} lignes ajoutées")
+                    # Si la lecture échoue, on écrase complètement la table pour éviter les doublons
+                    self.logger.warning(f"Impossible de lire la table existante ({e})")
+                    self.logger.warning("Réécriture complète de la table pour éviter les doublons")
+                    df_spark.write.mode("overwrite").saveAsTable(output_table)
+                    self.logger.info(f"Table réécrite avec {len(df_to_save):,} lignes (mois {mois_annee_actuel})")
 
             # Vérification finale
             count_query = f"""
