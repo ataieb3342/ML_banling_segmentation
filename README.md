@@ -13,7 +13,13 @@ ML_banking_segmentation/
 │   ├── dimension_optimizer.py # Reduction dimensionnelle
 │   ├── age_clustering.py     # Clustering stratifie par age
 │   ├── client_scoring.py     # Scoring PNB et segmentation
-│   └── advanced_pipeline.py  # Orchestration du pipeline
+│   ├── advanced_pipeline.py  # Orchestration du pipeline
+│   └── mock_data_generator.py # Generateur de donnees mock pour tests
+├── test/                     # Tests unitaires et integration
+│   ├── test_mock_generator.py # Tests du generateur mock
+│   ├── test_pipeline.py      # Tests du pipeline complet
+│   ├── test_modules.py       # Tests des modules individuels
+│   └── test_runner.py        # Runner principal de tests
 ├── models/                   # Modeles persistes (.pkl)
 ├── cache/                    # Cache donnees (avec validation mois/annee)
 └── logs/                     # Logs d'execution
@@ -578,14 +584,210 @@ status = get_pipeline_model_status()
 | ANNEE | INT | Annee |
 | MOIS | INT | Mois |
 
+## Tests et Developpement
+
+### Generateur de Donnees Mock
+
+Le projet inclut un generateur de donnees mock pour tester le pipeline sans acces a la base de production.
+
+**Generation rapide de donnees:**
+
+```bash
+# Generer 10000 clients et sauvegarder dans le cache
+python -m src.mock_data_generator -n 10000
+
+# Generer avec statistiques
+python -m src.mock_data_generator -n 5000 --stats
+
+# Generer sans sauvegarder
+python -m src.mock_data_generator -n 1000 --no-cache
+```
+
+**Utilisation en Python:**
+
+```python
+from src.mock_data_generator import create_mock_data, MockDataGenerator
+
+# Generation rapide
+df = create_mock_data(n_clients=5000, save_to_cache=True)
+
+# Generateur avec controle total
+generator = MockDataGenerator(n_clients=10000, random_state=42)
+df_core, df_org, df_financial = generator.generate_all_data()
+
+# Sauvegarder dans le cache
+file_paths = generator.save_to_cache()
+
+# Obtenir les statistiques
+stats = generator.get_statistics()
+```
+
+**Caracteristiques des donnees mock:**
+
+- Distributions realistes (age, PNB, anciennete)
+- Correlations coherentes (age/anciennete, PNB/nb_produits)
+- Format compatible avec le pipeline
+- Reproductibilite avec random_state
+- Cache automatique avec structure periode
+
+### Execution des Tests
+
+Le projet dispose d'une suite de tests complete pour valider tous les modules.
+
+**Runner de tests principal:**
+
+```bash
+# Executer tous les tests
+python test/test_runner.py
+
+# Tests rapides uniquement (mock generator)
+python test/test_runner.py --quick
+
+# Tests d'integration (pipeline complet)
+python test/test_runner.py --integration
+
+# Tests unitaires (modules individuels)
+python test/test_runner.py --unit
+
+# Categories specifiques
+python test/test_runner.py --categories mock_generator pipeline
+
+# Moins de verbosity
+python test/test_runner.py -v 1
+
+# Lister toutes les categories disponibles
+python test/test_runner.py --list
+```
+
+**Tests individuels:**
+
+```bash
+# Tests du generateur mock
+python test/test_mock_generator.py
+
+# Tests du pipeline complet
+python test/test_pipeline.py
+
+# Tests des modules (clustering, scoring, etc.)
+python test/test_modules.py
+```
+
+### Organisation des Tests
+
+**test/test_mock_generator.py:**
+- TestMockDataGenerator: Tests du generateur
+- TestMockDataQuality: Tests de la qualite des donnees
+
+**test/test_pipeline.py:**
+- TestAdvancedPipeline: Tests du pipeline complet
+- TestPipelineFunctions: Tests des fonctions utilitaires
+- TestPipelineEdgeCases: Tests des cas limites
+
+**test/test_modules.py:**
+- TestAgeClusterer: Tests du clustering stratifie
+- TestClientScoringEngine: Tests du moteur de scoring
+- TestDimensionOptimizer: Tests de l'optimisation
+- TestDataExtractor: Tests de l'extraction
+
+### Workflow de Developpement Recommande
+
+**1. Generer des donnees mock:**
+
+```bash
+python -m src.mock_data_generator -n 10000 --stats
+```
+
+**2. Tester le pipeline en mode dev:**
+
+```python
+from src.advanced_pipeline import run_advanced_pipeline
+
+# Execution locale avec donnees mock
+results = run_advanced_pipeline(
+    mode='dev',
+    clustering_mode='stratifie',
+    sample_size=1000,
+    force_retrain=True
+)
+
+print(f"Status: {results['metadata']['status']}")
+print(f"Clients scores: {len(results['data'])}")
+```
+
+**3. Executer les tests:**
+
+```bash
+# Tests rapides pendant le developpement
+python test/test_runner.py --quick
+
+# Tests complets avant commit
+python test/test_runner.py
+```
+
+**4. Verifier les resultats:**
+
+```bash
+# Consulter les logs
+tail -f logs/advanced_pipeline_$(date +%Y%m%d).log
+
+# Verifier les modeles generes
+ls -lh models/
+
+# Verifier le cache
+ls -lh cache/
+```
+
+### Integration Continue
+
+**Script de validation pre-commit:**
+
+```bash
+#!/bin/bash
+# Executer avant chaque commit
+
+echo "Execution des tests..."
+python test/test_runner.py -v 1
+
+if [ $? -eq 0 ]; then
+    echo "✅ Tests passes - Commit autorise"
+    exit 0
+else
+    echo "❌ Tests echoues - Commit bloque"
+    exit 1
+fi
+```
+
+### Benchmarking et Performance
+
+**Test de performance du pipeline:**
+
+```python
+from src.advanced_pipeline import run_advanced_pipeline
+import time
+
+# Tester avec differentes tailles
+for n in [1000, 5000, 10000, 50000]:
+    start = time.time()
+    results = run_advanced_pipeline(
+        mode='test',
+        sample_size=n,
+        force_retrain=True
+    )
+    duration = time.time() - start
+
+    print(f"N={n:,}: {duration:.2f}s ({n/duration:.0f} clients/s)")
+```
+
 ## Auteur
 
 Equipe Data Science - Credit Agricole
 
 ## Version
 
-4.2 - Decembre 2025
+4.3 - Decembre 2025
 - Cache intelligent base sur mois/annee
 - Prevention des doublons lors de la persistance
 - Logs ameliores pour le monitoring
+- Generateur de donnees mock integre
+- Suite de tests complete (unitaires + integration)
 - Documentation technique complete

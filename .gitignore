@@ -1,6 +1,7 @@
 /logs/
 /cache/
 /temp/
+*/__pycache__/*
 *.log
 *.tmp
 .DS_Store

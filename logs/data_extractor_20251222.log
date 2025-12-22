@@ -1,32 +1,1622 @@
-2025-12-22 13:54:32 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/data_extractor_20251222.log
-2025-12-22 13:54:32 - data_extractor - INFO - DataExtractor initialisé - Cache: False
-2025-12-22 13:54:32 - data_extractor - INFO - Début extraction complète
-2025-12-22 13:54:32 - data_extractor - INFO - Extraction données socles depuis la base
-2025-12-22 13:56:02 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/data_extractor_20251222.log
-2025-12-22 13:56:02 - data_extractor - INFO - DataExtractor initialisé - Cache: False
-2025-12-22 13:56:02 - data_extractor - INFO - Début extraction complète
-2025-12-22 13:56:02 - data_extractor - INFO - Extraction données socles depuis la base
-2025-12-22 13:56:35 - data_extractor - INFO - Extraction socles terminée : 311,388 lignes
-2025-12-22 13:56:35 - data_extractor - INFO - Extraction données organisationnelles depuis la base
-2025-12-22 13:56:44 - data_extractor - INFO - Extraction organisationnelle terminée : 384,591 lignes
-2025-12-22 13:56:44 - data_extractor - INFO - Extraction données financières depuis la base
-2025-12-22 13:57:34 - data_extractor - INFO - Extraction financière terminée : 453,913 lignes
-2025-12-22 13:57:35 - data_extractor - INFO - Données organisationnelles fusionnées
-2025-12-22 13:57:37 - data_extractor - INFO - Données financières fusionnées
-2025-12-22 13:57:37 - data_extractor - INFO - Extraction complète terminée : 311,388 lignes, 30 colonnes
-2025-12-22 14:00:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True
-2025-12-22 14:00:30 - data_extractor - INFO - Chargement données financières depuis le cache
-2025-12-22 14:07:24 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/data_extractor_20251222.log
-2025-12-22 14:07:24 - data_extractor - INFO - DataExtractor initialisé - Cache: False
-2025-12-22 14:07:24 - data_extractor - INFO - Début extraction complète
-2025-12-22 14:07:24 - data_extractor - INFO - Extraction données socles depuis la base
-2025-12-22 14:08:45 - data_extractor - INFO - Extraction socles terminée : 311,388 lignes
-2025-12-22 14:08:45 - data_extractor - INFO - Extraction données organisationnelles depuis la base
-2025-12-22 14:08:59 - data_extractor - INFO - Extraction organisationnelle terminée : 384,591 lignes
-2025-12-22 14:08:59 - data_extractor - INFO - Extraction données financières depuis la base
-2025-12-22 14:09:52 - data_extractor - INFO - Extraction financière terminée : 453,913 lignes
-2025-12-22 14:09:53 - data_extractor - INFO - Données organisationnelles fusionnées
-2025-12-22 14:09:55 - data_extractor - INFO - Données financières fusionnées
-2025-12-22 14:09:55 - data_extractor - INFO - Extraction complète terminée : 311,388 lignes, 30 colonnes
-2025-12-22 14:12:50 - data_extractor - INFO - DataExtractor initialisé - Cache: True
-2025-12-22 14:12:50 - data_extractor - INFO - Chargement données financières depuis le cache
+2025-12-22 22:06:07 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:06:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:06:07 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:06:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:06:07.173272, 500 lignes
+2025-12-22 22:06:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:06:07.173272, 500 lignes
+2025-12-22 22:06:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:06:07.173272, 500 lignes
+2025-12-22 22:06:07 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:06:07 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:06:07 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:06:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:06:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:06:07.173272, 500 lignes
+2025-12-22 22:06:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:06:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:06:07 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:06:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:06:07.173272, 500 lignes
+2025-12-22 22:06:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:06:07.173272, 500 lignes
+2025-12-22 22:06:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:06:07.173272, 500 lignes
+2025-12-22 22:06:07 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:06:07 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:06:07 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:00 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:07:00 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:00 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.381899, 500 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.381899, 500 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.381899, 500 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:00 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:00 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:00 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.381899, 500 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:00 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:00 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.381899, 500 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.381899, 500 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.381899, 500 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:00 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:00 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:00 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:00 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:00 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:00 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:00 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:01 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:01 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:01 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:01 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:01 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:01 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:01 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:01 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:01 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:01 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:01 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:01 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:01 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:02 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:02 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:02 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:02 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:02 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:02 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:02 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:02 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:02 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:02 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:02 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:02 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:02 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:03 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:03 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:03 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:03 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:03 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:03 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:03 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:03 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:03 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:04 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:04 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:04 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:04 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:04 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:04 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:04 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:04 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:04 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:04 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:05 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:05 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:05 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:05 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:05 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:05 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:05 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:05 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:05 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:05 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:06 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:06 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:06 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:06 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:07:06 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:00.409507, 2,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:06 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:06 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:06 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:06 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:07:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:07 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:07 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:07 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:07:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:06.638658, 1,000 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:07 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:07 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:07 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:07 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:08 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:08 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:08 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:08 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:08 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:08 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:08 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:08 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:08 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:08 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:08 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:08 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:08 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:08 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:08 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:07.828994, 500 lignes
+2025-12-22 22:07:08 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:08 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:08 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:20 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:07:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:20 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:20 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:20.101950, 500 lignes
+2025-12-22 22:07:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:21 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:21 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:07:32 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:07:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:07:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:07:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:32.395014, 500 lignes
+2025-12-22 22:07:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:32.395014, 500 lignes
+2025-12-22 22:07:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:07:32.395014, 500 lignes
+2025-12-22 22:07:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:07:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:07:32 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:08:17 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:08:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.709204, 500 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.709204, 500 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.709204, 500 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:17 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:17 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:08:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.709204, 500 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.709204, 500 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.709204, 500 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.709204, 500 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:17 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:17 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:08:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:17 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:17 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:17 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:18 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:18 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:18 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:18 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:18 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:18 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:19 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:19 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:19 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:19 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:19 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:19 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:19 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:19 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:21 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:21 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:21 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:21 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:21 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:21 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:22 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:22 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:22 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:22 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:22 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:22 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:23 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:23 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:23 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:23 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:23 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:23 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:24 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:24 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:24 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:24 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:08:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:17.739813, 2,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:25 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:25 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:25 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:08:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:25 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:25 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:25 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:25 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:08:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:25.133060, 1,000 lignes
+2025-12-22 22:08:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:26 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:08:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:27 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:08:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:27 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:08:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:26.537899, 500 lignes
+2025-12-22 22:08:38 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:08:38 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:38 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:08:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:38.306562, 500 lignes
+2025-12-22 22:08:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:38.306562, 500 lignes
+2025-12-22 22:08:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:38.306562, 500 lignes
+2025-12-22 22:08:38 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:08:38 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:08:38 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:08:38 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:08:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:08:38.306562, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:09:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.172444, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.172444, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.172444, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:30 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:09:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.172444, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.172444, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.172444, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.172444, 500 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:30 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:09:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:30 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:31 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:31 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:31 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:31 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:31 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:31 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:31 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:31 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:31 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:31 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:32 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:33 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:33 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:33 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:33 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:34 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:34 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:34 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:34 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:35 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:35 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:35 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:35 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:35 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:35 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:35 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:35 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:35 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:35 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:35 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:35 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:36 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:36 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:36 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:09:36 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:30.201743, 2,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:36 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:36 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:36 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:09:36 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:36 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:36 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:36 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:36 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:09:37 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:37 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:36.298381, 1,000 lignes
+2025-12-22 22:09:37 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:37 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:37 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:37 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:37 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:37 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:37 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:37 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:09:38 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:38 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:38 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:38 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:38 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:38 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:09:38 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:38 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:38 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:38 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:38 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:09:38 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:38 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:37.397650, 1,000 lignes
+2025-12-22 22:09:50 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:09:50 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:50 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:50 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:50.699579, 1,000 lignes
+2025-12-22 22:09:50 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:50.699579, 1,000 lignes
+2025-12-22 22:09:50 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:50.699579, 1,000 lignes
+2025-12-22 22:09:50 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:50 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:50 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:09:51 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:51 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:50.699579, 1,000 lignes
+2025-12-22 22:09:51 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:09:51 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:09:51 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:50.699579, 1,000 lignes
+2025-12-22 22:09:51 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:50.699579, 1,000 lignes
+2025-12-22 22:09:51 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:09:50.699579, 1,000 lignes
+2025-12-22 22:09:51 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:09:51 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:09:51 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:01 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:10:01 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:01 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:01.626823, 1,000 lignes
+2025-12-22 22:10:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:01.626823, 1,000 lignes
+2025-12-22 22:10:01 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:01.626823, 1,000 lignes
+2025-12-22 22:10:01 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:01 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:01 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:02 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:01.626823, 1,000 lignes
+2025-12-22 22:10:02 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:02 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:01.626823, 1,000 lignes
+2025-12-22 22:10:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:01.626823, 1,000 lignes
+2025-12-22 22:10:02 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:01.626823, 1,000 lignes
+2025-12-22 22:10:02 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:02 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:02 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:24 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:10:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:24 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.617964, 500 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.617964, 500 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.617964, 500 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:24 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:24 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:10:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.617964, 500 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:24 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.617964, 500 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.617964, 500 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.617964, 500 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:24 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:24 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:10:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:24 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:24 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:24 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:24 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:25 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:25 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:25 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:25 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:26 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:27 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:27 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:27 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:29 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:29 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:29 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:29 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:30 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:10:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:24.645990, 2,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:30 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:31 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:31 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:31 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:30.620368, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:31 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:31 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:31 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:31 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:32 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:32 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:31.805154, 1,000 lignes
+2025-12-22 22:10:48 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:10:48 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:48 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:48 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:48.381493, 1,000 lignes
+2025-12-22 22:10:48 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:48.381493, 1,000 lignes
+2025-12-22 22:10:48 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:48.381493, 1,000 lignes
+2025-12-22 22:10:48 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:48 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:48 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:10:49 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:49 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:48.381493, 1,000 lignes
+2025-12-22 22:10:49 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:10:49 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:10:49 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:48.381493, 1,000 lignes
+2025-12-22 22:10:49 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:48.381493, 1,000 lignes
+2025-12-22 22:10:49 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:10:48.381493, 1,000 lignes
+2025-12-22 22:10:49 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:10:49 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:10:49 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:11:26 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:11:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.531405, 500 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.531405, 500 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.531405, 500 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:26 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:11:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.531405, 500 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.531405, 500 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.531405, 500 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.531405, 500 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:26 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:11:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:26 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:27 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:29 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:29 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:29 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:29 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:29 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:29 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:29 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:30 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:30 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:31 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:31 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:31 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:31 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:32 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:11:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:26.560574, 2,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:32 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:11:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:33 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:33 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:33 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:11:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:32.686347, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:33 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:11:33 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:33 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:33 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:11:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:11:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:34 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:11:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:11:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:11:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:11:34 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:11:34 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:11:34 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:11:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:11:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:11:33.802161, 1,000 lignes
+2025-12-22 22:15:37 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:15:37 - data_extractor - INFO - DataExtractor initialisé - Cache: False, Période: 202512
+2025-12-22 22:15:37 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:15:37 - data_extractor - INFO - Extraction données socles depuis la base
+2025-12-22 22:15:37 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:15:37 - data_extractor - INFO - Extraction données organisationnelles depuis la base
+2025-12-22 22:15:37 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:15:37 - data_extractor - INFO - Extraction données financières depuis la base
+2025-12-22 22:15:37 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:15:37 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:15:37 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:15:37 - data_extractor - INFO - Extraction complète terminée : 0 lignes, 0 colonnes
+2025-12-22 22:16:26 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:16:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.022086, 500 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.022086, 500 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.022086, 500 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:26 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:16:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.022086, 500 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.022086, 500 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.022086, 500 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.022086, 500 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:26 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:16:26 - data_extractor - INFO - DataExtractor initialisé - Cache: False, Période: 202512
+2025-12-22 22:16:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:26 - data_extractor - INFO - Extraction données socles depuis la base
+2025-12-22 22:16:26 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:16:26 - data_extractor - INFO - Extraction données organisationnelles depuis la base
+2025-12-22 22:16:26 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:16:26 - data_extractor - INFO - Extraction données financières depuis la base
+2025-12-22 22:16:26 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:16:26 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:16:26 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:16:26 - data_extractor - INFO - Extraction complète terminée : 0 lignes, 0 colonnes
+2025-12-22 22:16:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:26 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:27 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:27 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:27 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:27 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:27 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:27 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:27 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:28 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:28 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:28 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:28 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:29 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:29 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:29 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:29 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:29 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:29 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:29 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:30 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:30 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:30 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:30 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:30 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:31 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:31 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:31 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:31 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:31 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:31 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:32 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:16:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:26.200487, 2,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:32 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:32 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:32 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:16:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:33 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:33 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:33 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:16:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:32.605698, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:33 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:16:33 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:33 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:33 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:16:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:16:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:34 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:16:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:16:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:16:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:16:34 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:16:34 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:16:34 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:16:34 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:16:34 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:16:33.863549, 1,000 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:18:12 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:12 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:12 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.749095, 500 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.749095, 500 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.749095, 500 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:12 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:12 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:18:12 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:12 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.749095, 500 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:12 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:12 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:12 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.749095, 500 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.749095, 500 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.749095, 500 lignes
+2025-12-22 22:18:12 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:12 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:12 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:18:12 - data_extractor - INFO - DataExtractor initialisé - Cache: False, Période: 202512
+2025-12-22 22:18:12 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:12 - data_extractor - INFO - Extraction données socles depuis la base
+2025-12-22 22:18:12 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:18:12 - data_extractor - INFO - Extraction données organisationnelles depuis la base
+2025-12-22 22:18:12 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:18:12 - data_extractor - INFO - Extraction données financières depuis la base
+2025-12-22 22:18:12 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:18:12 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:18:12 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:18:12 - data_extractor - INFO - Extraction complète terminée : 0 lignes, 0 colonnes
+2025-12-22 22:18:13 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:13 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:13 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:13 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:13 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:13 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:13 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:13 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:13 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:13 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:13 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:13 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:13 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:13 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:13 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:13 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:13 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:13 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:14 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:14 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:14 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:14 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:14 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:14 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:14 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:14 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:14 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:14 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:14 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:14 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:14 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:14 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:14 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:14 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:15 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:15 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:15 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:15 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:15 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:15 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:15 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:15 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:15 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:15 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:15 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:15 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:15 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:15 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:15 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:16 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:16 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:16 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:16 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:16 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:16 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:16 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:16 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:16 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:16 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:16 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:17 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:17 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:17 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:18 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:18 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:18 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:18 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:18 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:18 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:19 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:19 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:19 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:18:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:12.992853, 2,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:19 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:19 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:19 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:19 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:18:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:20 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:18:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:19.621818, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:18:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:20 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:18:21 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:18:21 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:21 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:18:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:18:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:18:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:18:21 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:18:21 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:18:21 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:18:21 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:18:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:18:20.865887, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:24:59 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:24:59 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:24:59 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:24:59 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:24:59 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:24:59 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:24:59 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:24:59 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:24:59 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:24:59 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:24:59 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:24:59 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:25:00 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:00 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:24:59.054152, 1,000 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/logs/data_extractor_20251222.log
+2025-12-22 22:25:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.666376, 500 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.666376, 500 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.666376, 500 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:17 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:17 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:25:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.666376, 500 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.666376, 500 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.666376, 500 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.666376, 500 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:17 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:17 - data_extractor - INFO - Extraction complète terminée : 500 lignes, 19 colonnes
+2025-12-22 22:25:17 - data_extractor - INFO - DataExtractor initialisé - Cache: False, Période: 202512
+2025-12-22 22:25:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:17 - data_extractor - INFO - Extraction données socles depuis la base
+2025-12-22 22:25:17 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:25:17 - data_extractor - INFO - Extraction données organisationnelles depuis la base
+2025-12-22 22:25:17 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:25:17 - data_extractor - INFO - Extraction données financières depuis la base
+2025-12-22 22:25:17 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:25:17 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:25:17 - data_extractor - ERROR - Spark non disponible
+2025-12-22 22:25:17 - data_extractor - INFO - Extraction complète terminée : 0 lignes, 0 colonnes
+2025-12-22 22:25:17 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:17 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:17 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:17 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:17 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:18 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:18 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:18 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:18 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:18 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:18 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:18 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:19 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:19 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:19 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:19 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:19 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:19 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:19 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:19 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:19 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:19 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:20 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:20 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:20 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:21 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:21 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:21 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:21 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:21 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:21 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:21 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:22 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:22 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:22 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:22 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:22 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:22 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:22 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:22 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:22 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:22 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:23 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:23 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:23 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:23 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:23 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:23 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:23 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:23 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:23 - data_extractor - INFO - Extraction complète terminée : 2,000 lignes, 19 colonnes
+2025-12-22 22:25:23 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:23 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:17.853085, 2,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:24 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:24 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:24 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:25:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:24 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:24 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:24 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:24 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:25:24 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:24 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:24.003612, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:25 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:25 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:25 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:25:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:25 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:25 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:25 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:25 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:25:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:26 - data_extractor - INFO - Début extraction complète
+2025-12-22 22:25:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes
+2025-12-22 22:25:26 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 22:25:26 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 22:25:26 - data_extractor - INFO - Extraction complète terminée : 1,000 lignes, 19 colonnes
+2025-12-22 22:25:26 - data_extractor - INFO - DataExtractor initialisé - Cache: True, Période: 202512
+2025-12-22 22:25:26 - data_extractor - INFO - Cache valide chargé: période 202512, créé le 2025-12-22T22:25:25.040185, 1,000 lignes

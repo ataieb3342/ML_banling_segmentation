@@ -529,11 +529,7 @@ class AgeClusterer:
     
     def _calculate_detailed_metrics(self, cluster_results: Dict, df: pd.DataFrame):
         """Calcule les métriques détaillées avec métadonnées d'entraînement"""
-        if not cluster_results:
-            self.quality_metrics = {'error': 'Aucun clustering réussi'}
-            return
-        
-        # Métadonnées d'entraînement
+        # Toujours définir les métadonnées d'entraînement de base
         self.training_metadata = {
             'training_date': datetime.now().isoformat(),
             'model_version': self.model_version,
@@ -544,7 +540,25 @@ class AgeClusterer:
             'age_min': int(df['AGE'].min()),
             'age_max': int(df['AGE'].max())
         }
-        
+
+        if not cluster_results:
+            self.quality_metrics = {
+                'error': 'Aucun clustering réussi',
+                'global_metrics': {
+                    'total_clusters': 0,
+                    'total_clustered_clients': 0,
+                    'viable_strata': 0,
+                    'single_cluster_strata': 0,
+                    'avg_silhouette_score': 0.0,
+                    'min_silhouette_score': 0.0,
+                    'max_silhouette_score': 0.0,
+                    'silhouette_std': 0.0,
+                    'feature_importance_global': {}
+                },
+                'strata_details': {}
+            }
+            return
+
         # Agrégation des métriques
         all_silhouette = []
         total_clients = 0

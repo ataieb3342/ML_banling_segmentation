@@ -152,14 +152,28 @@ class AdvancedBankingPipeline:
     def _apply_smart_clustering(self, df_processed: pd.DataFrame) -> pd.DataFrame:
         """
         Application du clustering avec gestion des modèles et logging détaillé.
-        
+
         LOGIQUE:
-        1. Essaie de charger un modèle existant
-        2. Log toutes les métriques détaillées pour décision manuelle
-        3. Recalcule SEULEMENT si force_retrain=True
+        1. En mode 'global', injecte temporairement la colonne AGE depuis les données brutes
+        2. Essaie de charger un modèle existant
+        3. Log toutes les métriques détaillées pour décision manuelle
+        4. Recalcule SEULEMENT si force_retrain=True
+        5. En mode 'global', retire la colonne AGE temporaire pour maintenir le schéma
         """
         self.logger.info("=== CLUSTERING AVEC GESTION MODÈLES ===")
-        
+
+        # En mode global, AGE n'est pas dans df_processed (transformé en colonnes binaires)
+        # On l'injecte temporairement depuis les données brutes pour AgeClusterer
+        age_was_injected = False
+        if self.clustering_mode == 'global' and 'AGE' not in df_processed.columns:
+            df_raw = self.results.get('raw_data')
+            if df_raw is not None and 'AGE' in df_raw.columns:
+                # Aligner les index et injecter AGE
+                df_processed = df_processed.copy()
+                df_processed['AGE'] = pd.to_numeric(df_raw['AGE'], errors='coerce').values
+                age_was_injected = True
+                self.logger.info("Mode global: AGE injecté temporairement pour stratification")
+
         clusterer = AgeClusterer()
         
         if self.force_retrain:
@@ -209,7 +223,12 @@ class AdvancedBankingPipeline:
                 clusterer_new = AgeClusterer()
                 df_result = clusterer_new.fit_transform(df_processed)
                 self.metrics['clustering'] = clusterer_new.quality_metrics
-        
+
+        # En mode global, retirer la colonne AGE temporaire pour maintenir le schéma original
+        if age_was_injected and 'AGE' in df_result.columns:
+            df_result = df_result.drop(columns=['AGE'])
+            self.logger.info("Mode global: AGE temporaire retiré du résultat")
+
         return df_result
     
     def _log_detailed_model_metrics(self, clusterer: AgeClusterer, df_new: pd.DataFrame) -> None:

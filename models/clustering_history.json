@@ -1,0 +1,56 @@
+[
+  {
+    "model_version": "20251222_180156",
+    "training_date": "2025-12-22T18:01:57.884357",
+    "n_samples": 1500,
+    "avg_silhouette_score": 0.0,
+    "total_clusters": 10,
+    "viable_strata": 10,
+    "model_path": "/Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/models/age_clustering_20251222_180156.pkl"
+  },
+  {
+    "model_version": "20251222_180434",
+    "training_date": "2025-12-22T18:04:35.746236",
+    "n_samples": 1500,
+    "avg_silhouette_score": 0.0,
+    "total_clusters": 10,
+    "viable_strata": 10,
+    "model_path": "/Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/models/age_clustering_20251222_180434.pkl"
+  },
+  {
+    "model_version": "20251222_180445",
+    "training_date": "2025-12-22T18:04:46.388987",
+    "n_samples": 1500,
+    "avg_silhouette_score": 0.0,
+    "total_clusters": 10,
+    "viable_strata": 10,
+    "model_path": "/Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/models/age_clustering_20251222_180445.pkl"
+  },
+  {
+    "model_version": "20251222_180517",
+    "training_date": "2025-12-22T18:05:18.563283",
+    "n_samples": 1500,
+    "avg_silhouette_score": 0.0,
+    "total_clusters": 10,
+    "viable_strata": 10,
+    "model_path": "/Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/models/age_clustering_20251222_180517.pkl"
+  },
+  {
+    "model_version": "20251222_180527",
+    "training_date": "2025-12-22T18:05:28.046212",
+    "n_samples": 1500,
+    "avg_silhouette_score": 0.0,
+    "total_clusters": 10,
+    "viable_strata": 10,
+    "model_path": "/Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/models/age_clustering_20251222_180527.pkl"
+  },
+  {
+    "model_version": "20251222_180630",
+    "training_date": "2025-12-22T18:06:31.347166",
+    "n_samples": 1500,
+    "avg_silhouette_score": 0.0,
+    "total_clusters": 10,
+    "viable_strata": 10,
+    "model_path": "/Users/taieb/Documents/GITHUB REPO/ML_banking_segmentation/models/age_clustering_20251222_180630.pkl"
+  }
+]

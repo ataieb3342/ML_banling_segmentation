@@ -18,7 +18,7 @@ from .config import Config, get_logger
 class DimensionOptimizer:
     """
     Optimiseur de dimensions avec modes global et stratifié.
-    
+
     Modes disponibles :
     - "global" : 11 dimensions avec tranches d'âge encodées
     - "stratifie" : 8 dimensions + AGE numérique pour stratification
@@ -44,13 +44,13 @@ class DimensionOptimizer:
         if clustering_mode == "global":
             self.age_bins = [
                 (18, 30, 'Jeunes'),
-                (30, 50, 'Actifs'), 
+                (30, 50, 'Actifs'),
                 (50, 65, 'Seniors'),
                 (65, 100, 'Retraites')
             ]
             self.total_dimensions = 11
             self.encode_age_ranges = True
-            
+
         else:  # Mode stratifié
             self.age_bins = None
             self.total_dimensions = 8
@@ -162,22 +162,22 @@ class DimensionOptimizer:
         if 'AGE' not in df.columns:
             self.logger.warning("Colonne AGE manquante")
             return pd.DataFrame(index=df.index)
-        
+
         age_numeric = pd.to_numeric(df['AGE'], errors='coerce')
-        
+
         if self.clustering_mode == "global":
-            # Tranches d'âge
+            # Tranches d'âge binaires (sans AGE numérique pour éviter les problèmes de schéma)
             encoded = pd.DataFrame(index=df.index)
             for _, _, label in self.age_bins:
                 encoded[f'Age_{label}'] = 0
-            
+
             encoded.loc[(age_numeric >= 18) & (age_numeric < 30), 'Age_Jeunes'] = 1
             encoded.loc[(age_numeric >= 30) & (age_numeric < 50), 'Age_Actifs'] = 1
             encoded.loc[(age_numeric >= 50) & (age_numeric < 65), 'Age_Seniors'] = 1
             encoded.loc[age_numeric >= 65, 'Age_Retraites'] = 1
-            
+
             return encoded
-        
+
         else:
             # Mode stratifié : âge numérique
             return pd.DataFrame({'AGE': age_numeric}, index=df.index)

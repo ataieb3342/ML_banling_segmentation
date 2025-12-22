@@ -334,7 +334,7 @@ class ClientScoringEngine:
 
             # Récupération et aplatissement des indices
             top_indices_by_cluster = (data.groupby('CLUSTER_GLOBAL', group_keys=False)
-                                    .apply(get_top_clients_indices))
+                                    .apply(get_top_clients_indices, include_groups=False))
 
             # Aplatir la liste des listes d'indices
             top_client_indices = []
