@@ -1,0 +1,135 @@
+2025-12-22 13:54:32 - advanced_pipeline - INFO - Logger advanced_pipeline configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/advanced_pipeline_20251222.log
+2025-12-22 13:54:32 - advanced_pipeline - INFO - AdvancedPipeline initialisé - Mode: prod, Clustering: stratifie
+2025-12-22 13:54:32 - advanced_pipeline - INFO - Force retrain: False
+2025-12-22 13:54:32 - advanced_pipeline - INFO - === DÉMARRAGE PIPELINE AVANCÉ ===
+2025-12-22 13:54:32 - advanced_pipeline - INFO - Étape 1: Extraction données
+2025-12-22 13:56:02 - advanced_pipeline - INFO - Logger advanced_pipeline configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/advanced_pipeline_20251222.log
+2025-12-22 13:56:02 - advanced_pipeline - INFO - AdvancedPipeline initialisé - Mode: prod, Clustering: stratifie
+2025-12-22 13:56:02 - advanced_pipeline - INFO - Force retrain: False
+2025-12-22 13:56:02 - advanced_pipeline - INFO - === DÉMARRAGE PIPELINE AVANCÉ ===
+2025-12-22 13:56:02 - advanced_pipeline - INFO - Étape 1: Extraction données
+2025-12-22 13:57:37 - advanced_pipeline - INFO - Données extraites: (311388, 30)
+2025-12-22 13:57:37 - advanced_pipeline - INFO - Étape 2: Optimisation dimensions
+2025-12-22 13:57:39 - advanced_pipeline - INFO - Dimensions optimisées: (311388, 9)
+2025-12-22 13:57:39 - advanced_pipeline - INFO - === CLUSTERING AVEC GESTION MODÈLES ===
+2025-12-22 13:57:39 - advanced_pipeline - INFO - Modèle existant trouvé: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-12-22 13:57:39 - advanced_pipeline - INFO - === MÉTRIQUES DÉTAILLÉES DU MODÈLE ===
+2025-12-22 13:57:39 - advanced_pipeline - INFO - 📊 MODÈLE EXISTANT:
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Version: 20250919_134217
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Date entraînement: 2025-09-19T13:52:19.631915
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Échantillons entraînement: 312,412
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Features entraînement: 7
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Silhouette moyenne: 0.655
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Min/Max silhouette: 0.529 / 0.802
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Clusters créés: 50
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Strates viables: 10
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Strates cluster unique: 1
+2025-12-22 13:57:39 - advanced_pipeline - INFO - 👥 PROFIL DÉMOGRAPHIQUE MODÈLE:
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Âge moyen entraînement: 49.9 ± 20.2
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Âge min/max entraînement: 18 / 100
+2025-12-22 13:57:39 - advanced_pipeline - INFO - 📈 NOUVELLES DONNÉES:
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Échantillons actuels: 311,388
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Features actuelles: 8
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Âge moyen actuel: 49.9 ± 20.3
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Âge min/max actuel: 18 / 100
+2025-12-22 13:57:39 - advanced_pipeline - INFO - ⚖️  COMPARAISON MODÈLE vs NOUVELLES DONNÉES:
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Dérive âge moyen: 0.0 ans
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Dérive écart-type âge: 0.0
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Ratio volume: 1.00x (311,388 vs 312,412)
+2025-12-22 13:57:39 - advanced_pipeline - INFO - 🧪 TEST APPLICATION MODÈLE:
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Échantillon testé: 1,000
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Clients clusterisés: 1,000 (100.0%)
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Clients non-clusterisés: 0 (0.0%)
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Strates actives: 10
+2025-12-22 13:57:39 - advanced_pipeline - INFO -     - 63+: 295 clients
+2025-12-22 13:57:39 - advanced_pipeline - INFO -     - 18-22: 97 clients
+2025-12-22 13:57:39 - advanced_pipeline - INFO -     - 23-27: 87 clients
+2025-12-22 13:57:39 - advanced_pipeline - INFO -     - 48-52: 80 clients
+2025-12-22 13:57:39 - advanced_pipeline - INFO -     - 28-32: 78 clients
+2025-12-22 13:57:39 - advanced_pipeline - INFO - 🚨 SIGNAUX POUR DÉCISION MANUELLE:
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   ✅ AUCUNE ALERTE - Modèle semble adapté aux nouvelles données
+2025-12-22 13:57:39 - advanced_pipeline - INFO - 📋 RÉSUMÉ DÉCISIONNEL:
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Âge du modèle: 94 jours
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Qualité modèle: Bonne
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Dérive détectée: Non
+2025-12-22 13:57:39 - advanced_pipeline - INFO -   Couverture: Bonne
+2025-12-22 13:57:39 - advanced_pipeline - INFO - APPLICATION MODÈLE EXISTANT
+2025-12-22 14:00:30 - advanced_pipeline - INFO - Étape 4: Scoring clients
+2025-12-22 14:00:51 - advanced_pipeline - INFO - Scoring terminé: (307361, 61)
+2025-12-22 14:00:51 - advanced_pipeline - INFO - Persistance résultats en base
+2025-12-22 14:00:52 - advanced_pipeline - INFO - Ajout colonnes temporelles - MOIS_ANNEE: 202512
+2025-12-22 14:02:45 - advanced_pipeline - INFO - Création de la nouvelle table : d_mcfcp10_mlcdp_wax647_explo.segmentation_clients_scoring
+2025-12-22 14:04:02 - advanced_pipeline - INFO - Table créée avec succès : 307,361 lignes insérées
+2025-12-22 14:04:03 - advanced_pipeline - INFO - === ÉTAT DE LA TABLE APRÈS PERSISTANCE ===
+2025-12-22 14:04:03 - advanced_pipeline - INFO -   MOIS_ANNEE 202512: 307,361 clients
+2025-12-22 14:04:03 - advanced_pipeline - ERROR - ❌ ERREUR lors de la persistance : local variable 'mois_annee_actuel' referenced before assignment
+2025-12-22 14:04:03 - advanced_pipeline - ERROR - Type erreur : UnboundLocalError
+2025-12-22 14:04:03 - advanced_pipeline - ERROR - Traceback : Traceback (most recent call last):
+  File "/data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/src/advanced_pipeline.py", line 533, in _persist_results
+    'mois_annee': mois_annee_actuel,
+UnboundLocalError: local variable 'mois_annee_actuel' referenced before assignment
+
+2025-12-22 14:04:03 - advanced_pipeline - ERROR - ERREUR PIPELINE: local variable 'mois_annee_actuel' referenced before assignment
+2025-12-22 14:07:24 - advanced_pipeline - INFO - Logger advanced_pipeline configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/advanced_pipeline_20251222.log
+2025-12-22 14:07:24 - advanced_pipeline - INFO - AdvancedPipeline initialisé - Mode: prod, Clustering: stratifie
+2025-12-22 14:07:24 - advanced_pipeline - INFO - Force retrain: False
+2025-12-22 14:07:24 - advanced_pipeline - INFO - === DÉMARRAGE PIPELINE AVANCÉ ===
+2025-12-22 14:07:24 - advanced_pipeline - INFO - Étape 1: Extraction données
+2025-12-22 14:09:55 - advanced_pipeline - INFO - Données extraites: (311388, 30)
+2025-12-22 14:09:55 - advanced_pipeline - INFO - Étape 2: Optimisation dimensions
+2025-12-22 14:09:57 - advanced_pipeline - INFO - Dimensions optimisées: (311388, 9)
+2025-12-22 14:09:57 - advanced_pipeline - INFO - === CLUSTERING AVEC GESTION MODÈLES ===
+2025-12-22 14:09:57 - advanced_pipeline - INFO - Modèle existant trouvé: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-12-22 14:09:57 - advanced_pipeline - INFO - === MÉTRIQUES DÉTAILLÉES DU MODÈLE ===
+2025-12-22 14:09:57 - advanced_pipeline - INFO - 📊 MODÈLE EXISTANT:
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Version: 20250919_134217
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Date entraînement: 2025-09-19T13:52:19.631915
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Échantillons entraînement: 312,412
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Features entraînement: 7
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Silhouette moyenne: 0.655
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Min/Max silhouette: 0.529 / 0.802
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Clusters créés: 50
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Strates viables: 10
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Strates cluster unique: 1
+2025-12-22 14:09:57 - advanced_pipeline - INFO - 👥 PROFIL DÉMOGRAPHIQUE MODÈLE:
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Âge moyen entraînement: 49.9 ± 20.2
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Âge min/max entraînement: 18 / 100
+2025-12-22 14:09:57 - advanced_pipeline - INFO - 📈 NOUVELLES DONNÉES:
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Échantillons actuels: 311,388
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Features actuelles: 8
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Âge moyen actuel: 49.9 ± 20.3
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Âge min/max actuel: 18 / 100
+2025-12-22 14:09:57 - advanced_pipeline - INFO - ⚖️  COMPARAISON MODÈLE vs NOUVELLES DONNÉES:
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Dérive âge moyen: 0.0 ans
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Dérive écart-type âge: 0.0
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Ratio volume: 1.00x (311,388 vs 312,412)
+2025-12-22 14:09:57 - advanced_pipeline - INFO - 🧪 TEST APPLICATION MODÈLE:
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Échantillon testé: 1,000
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Clients clusterisés: 1,000 (100.0%)
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Clients non-clusterisés: 0 (0.0%)
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   Strates actives: 10
+2025-12-22 14:09:57 - advanced_pipeline - INFO -     - 63+: 295 clients
+2025-12-22 14:09:57 - advanced_pipeline - INFO -     - 18-22: 97 clients
+2025-12-22 14:09:57 - advanced_pipeline - INFO -     - 23-27: 87 clients
+2025-12-22 14:09:57 - advanced_pipeline - INFO -     - 48-52: 80 clients
+2025-12-22 14:09:57 - advanced_pipeline - INFO -     - 28-32: 78 clients
+2025-12-22 14:09:57 - advanced_pipeline - INFO - 🚨 SIGNAUX POUR DÉCISION MANUELLE:
+2025-12-22 14:09:57 - advanced_pipeline - INFO -   ✅ AUCUNE ALERTE - Modèle semble adapté aux nouvelles données
+2025-12-22 14:09:58 - advanced_pipeline - INFO - 📋 RÉSUMÉ DÉCISIONNEL:
+2025-12-22 14:09:58 - advanced_pipeline - INFO -   Âge du modèle: 94 jours
+2025-12-22 14:09:58 - advanced_pipeline - INFO -   Qualité modèle: Bonne
+2025-12-22 14:09:58 - advanced_pipeline - INFO -   Dérive détectée: Non
+2025-12-22 14:09:58 - advanced_pipeline - INFO -   Couverture: Bonne
+2025-12-22 14:09:58 - advanced_pipeline - INFO - APPLICATION MODÈLE EXISTANT
+2025-12-22 14:12:50 - advanced_pipeline - INFO - Étape 4: Scoring clients
+2025-12-22 14:13:11 - advanced_pipeline - INFO - Scoring terminé: (307361, 61)
+2025-12-22 14:13:11 - advanced_pipeline - INFO - Persistance résultats en base
+2025-12-22 14:13:11 - advanced_pipeline - INFO - Ajout colonnes temporelles - MOIS_ANNEE: 202512
+2025-12-22 14:16:02 - advanced_pipeline - INFO - Table existante - Suppression des données pour MOIS_ANNEE=202512
+2025-12-22 14:16:02 - advanced_pipeline - WARNING - Impossible de supprimer (table peut-être vide) : "\nOperation not allowed: DELETE FROM(line 2, pos 16)\n\n== SQL ==\n\n                DELETE FROM d_mcfcp10_mlcdp_wax647_explo.segmentation_clients_scoring\n----------------^^^\n                WHERE MOIS_ANNEE = '202512'\n                \n"
+2025-12-22 14:16:02 - advanced_pipeline - INFO - Insertion de 307,361 nouvelles lignes
+2025-12-22 14:17:13 - advanced_pipeline - INFO - Insertion terminée avec succès
+2025-12-22 14:17:21 - advanced_pipeline - INFO - === ÉTAT DE LA TABLE APRÈS PERSISTANCE ===
+2025-12-22 14:17:21 - advanced_pipeline - INFO -   MOIS_ANNEE 202512: 614,722 clients
+2025-12-22 14:17:21 - advanced_pipeline - INFO - ✅ Persistance réussie : 307,361 lignes dans d_mcfcp10_mlcdp_wax647_explo.segmentation_clients_scoring
+2025-12-22 14:17:21 - advanced_pipeline - INFO - === PIPELINE TERMINÉ AVEC SUCCÈS ===

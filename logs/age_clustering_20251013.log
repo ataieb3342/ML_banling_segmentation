@@ -1,0 +1,76 @@
+2025-10-13 10:54:54 - age_clustering - INFO - Logger age_clustering configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/age_clustering_20251013.log
+2025-10-13 10:54:54 - age_clustering - INFO - AgeClusterer initialisé - Version: 20251013_105454
+2025-10-13 10:54:54 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-10-13 10:54:54 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-10-13 10:54:54 - age_clustering - INFO - Chargement modèle depuis : /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-10-13 10:54:54 - age_clustering - INFO - === MODÈLE CHARGÉ AVEC SUCCÈS ===
+2025-10-13 10:54:54 - age_clustering - INFO - Version: 20250919_134217
+2025-10-13 10:54:54 - age_clustering - INFO - Date entraînement: 2025-09-19T13:52:19.631915
+2025-10-13 10:54:54 - age_clustering - INFO - Nb échantillons: 312412
+2025-10-13 10:54:54 - age_clustering - INFO - Score silhouette moyen: 0.655
+2025-10-13 10:54:54 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-10-13 10:54:54 - age_clustering - INFO - Nouvelles données : (1000, 9)
+2025-10-13 10:54:54 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 99 ans (μ=50.4±20.2)
+2025-10-13 10:54:55 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-10-13 10:54:55 - age_clustering - INFO - 23-27: Silhouette 0.802→0.751 (88 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 28-32: Silhouette 0.691→0.716 (75 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 33-37: Silhouette 0.631→0.595 (63 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 38-42: Silhouette 0.603→0.644 (82 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 43-47: Silhouette 0.609→0.587 (78 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 48-52: Silhouette 0.644→0.650 (73 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 53-57: Silhouette 0.673→0.734 (82 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 58-62: Silhouette 0.712→0.652 (78 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - 63+: Silhouette 0.529→0.524 (297 clients)
+2025-10-13 10:54:55 - age_clustering - INFO - Application terminée en 0.28s - 1000/1000 clients assignés
+2025-10-13 10:54:55 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-10-13 10:54:55 - age_clustering - INFO - Nouvelles données : (312707, 9)
+2025-10-13 10:54:55 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 100 ans (μ=49.9±20.3)
+2025-10-13 10:57:46 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-10-13 10:57:46 - age_clustering - INFO - 23-27: Silhouette 0.802→0.803 (27656 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 28-32: Silhouette 0.691→0.691 (23274 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 33-37: Silhouette 0.631→0.631 (22568 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 38-42: Silhouette 0.603→0.602 (23592 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 43-47: Silhouette 0.609→0.609 (24238 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 48-52: Silhouette 0.644→0.644 (23161 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 53-57: Silhouette 0.673→0.673 (24639 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 58-62: Silhouette 0.712→0.712 (23336 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - 63+: Silhouette 0.529→0.529 (92238 clients)
+2025-10-13 10:57:46 - age_clustering - INFO - Application terminée en 171.22s - 312707/312707 clients assignés
+2025-10-13 11:13:14 - age_clustering - INFO - Logger age_clustering configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/age_clustering_20251013.log
+2025-10-13 11:13:14 - age_clustering - INFO - AgeClusterer initialisé - Version: 20251013_111314
+2025-10-13 11:13:14 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-10-13 11:13:14 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-10-13 11:13:14 - age_clustering - INFO - Chargement modèle depuis : /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-10-13 11:13:14 - age_clustering - INFO - === MODÈLE CHARGÉ AVEC SUCCÈS ===
+2025-10-13 11:13:14 - age_clustering - INFO - Version: 20250919_134217
+2025-10-13 11:13:14 - age_clustering - INFO - Date entraînement: 2025-09-19T13:52:19.631915
+2025-10-13 11:13:14 - age_clustering - INFO - Nb échantillons: 312412
+2025-10-13 11:13:14 - age_clustering - INFO - Score silhouette moyen: 0.655
+2025-10-13 11:13:15 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-10-13 11:13:15 - age_clustering - INFO - Nouvelles données : (1000, 9)
+2025-10-13 11:13:15 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 99 ans (μ=50.4±20.2)
+2025-10-13 11:13:15 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-10-13 11:13:15 - age_clustering - INFO - 23-27: Silhouette 0.802→0.753 (88 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 28-32: Silhouette 0.691→0.724 (75 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 33-37: Silhouette 0.631→0.600 (63 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 38-42: Silhouette 0.603→0.640 (82 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 43-47: Silhouette 0.609→0.603 (78 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 48-52: Silhouette 0.644→0.653 (73 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 53-57: Silhouette 0.673→0.728 (82 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 58-62: Silhouette 0.712→0.664 (78 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - 63+: Silhouette 0.529→0.533 (297 clients)
+2025-10-13 11:13:15 - age_clustering - INFO - Application terminée en 0.27s - 1000/1000 clients assignés
+2025-10-13 11:13:15 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-10-13 11:13:15 - age_clustering - INFO - Nouvelles données : (312707, 9)
+2025-10-13 11:13:15 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 100 ans (μ=49.9±20.3)
+2025-10-13 11:16:05 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-10-13 11:16:05 - age_clustering - INFO - 23-27: Silhouette 0.802→0.803 (27656 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 28-32: Silhouette 0.691→0.691 (23274 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 33-37: Silhouette 0.631→0.630 (22568 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 38-42: Silhouette 0.603→0.603 (23592 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 43-47: Silhouette 0.609→0.609 (24238 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 48-52: Silhouette 0.644→0.644 (23161 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 53-57: Silhouette 0.673→0.672 (24639 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 58-62: Silhouette 0.712→0.713 (23336 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - 63+: Silhouette 0.529→0.529 (92238 clients)
+2025-10-13 11:16:05 - age_clustering - INFO - Application terminée en 169.93s - 312707/312707 clients assignés

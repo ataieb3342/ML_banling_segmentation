@@ -1,0 +1,69 @@
+2025-09-19 13:39:24 - advanced_pipeline - INFO - Logger advanced_pipeline configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/advanced_pipeline_20250919.log
+2025-09-19 13:39:24 - advanced_pipeline - INFO - AdvancedPipeline initialisé - Mode: prod, Clustering: stratifie
+2025-09-19 13:39:24 - advanced_pipeline - INFO - === DÉMARRAGE PIPELINE AVANCÉ ===
+2025-09-19 13:39:24 - advanced_pipeline - INFO - Étape 1: Extraction données
+2025-09-19 13:42:15 - advanced_pipeline - INFO - Données extraites: (312412, 30)
+2025-09-19 13:42:15 - advanced_pipeline - INFO - Étape 2: Optimisation dimensions
+2025-09-19 13:42:17 - advanced_pipeline - INFO - Dimensions optimisées: (312412, 9)
+2025-09-19 13:42:17 - advanced_pipeline - INFO - Étape 3: Clustering
+2025-09-19 13:52:19 - advanced_pipeline - INFO - Clustering terminé: (312412, 12)
+2025-09-19 13:52:19 - advanced_pipeline - INFO - Étape 4: Scoring clients
+2025-09-19 13:52:40 - advanced_pipeline - INFO - Scoring terminé: (312356, 61)
+2025-09-19 13:52:40 - advanced_pipeline - INFO - Persistance résultats en base
+2025-09-19 13:54:37 - advanced_pipeline - INFO - Données persistées dans d_mcfcp10_mlcdp_wax647_explo.SEGPOTDYN
+2025-09-19 13:54:37 - advanced_pipeline - INFO - === PIPELINE TERMINÉ AVEC SUCCÈS ===
+2025-09-19 14:02:16 - advanced_pipeline - INFO - Logger advanced_pipeline configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/advanced_pipeline_20250919.log
+2025-09-19 14:02:16 - advanced_pipeline - INFO - AdvancedPipeline initialisé - Mode: prod, Clustering: stratifie
+2025-09-19 14:02:16 - advanced_pipeline - INFO - Force retrain: False
+2025-09-19 14:02:16 - advanced_pipeline - INFO - === DÉMARRAGE PIPELINE AVANCÉ ===
+2025-09-19 14:02:16 - advanced_pipeline - INFO - Étape 1: Extraction données
+2025-09-19 14:04:48 - advanced_pipeline - INFO - Données extraites: (312412, 30)
+2025-09-19 14:04:48 - advanced_pipeline - INFO - Étape 2: Optimisation dimensions
+2025-09-19 14:04:49 - advanced_pipeline - INFO - Dimensions optimisées: (312412, 9)
+2025-09-19 14:04:49 - advanced_pipeline - INFO - === CLUSTERING AVEC GESTION MODÈLES ===
+2025-09-19 14:04:49 - advanced_pipeline - INFO - Modèle existant trouvé: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-09-19 14:04:49 - advanced_pipeline - INFO - === MÉTRIQUES DÉTAILLÉES DU MODÈLE ===
+2025-09-19 14:04:49 - advanced_pipeline - INFO - 📊 MODÈLE EXISTANT:
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Version: 20250919_134217
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Date entraînement: 2025-09-19T13:52:19.631915
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Échantillons entraînement: 312,412
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Features entraînement: 7
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Silhouette moyenne: 0.655
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Min/Max silhouette: 0.529 / 0.802
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Clusters créés: 50
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Strates viables: 10
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Strates cluster unique: 1
+2025-09-19 14:04:49 - advanced_pipeline - INFO - 👥 PROFIL DÉMOGRAPHIQUE MODÈLE:
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Âge moyen entraînement: 49.9 ± 20.2
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Âge min/max entraînement: 18 / 100
+2025-09-19 14:04:49 - advanced_pipeline - INFO - 📈 NOUVELLES DONNÉES:
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Échantillons actuels: 312,412
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Features actuelles: 8
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Âge moyen actuel: 49.9 ± 20.2
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Âge min/max actuel: 18 / 100
+2025-09-19 14:04:49 - advanced_pipeline - INFO - ⚖️  COMPARAISON MODÈLE vs NOUVELLES DONNÉES:
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Dérive âge moyen: 0.0 ans
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Dérive écart-type âge: 0.0
+2025-09-19 14:04:49 - advanced_pipeline - INFO -   Ratio volume: 1.00x (312,412 vs 312,412)
+2025-09-19 14:04:49 - advanced_pipeline - INFO - 🧪 TEST APPLICATION MODÈLE:
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Échantillon testé: 1,000
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Clients clusterisés: 1,000 (100.0%)
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Clients non-clusterisés: 0 (0.0%)
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Strates actives: 10
+2025-09-19 14:04:50 - advanced_pipeline - INFO -     - 63+: 290 clients
+2025-09-19 14:04:50 - advanced_pipeline - INFO -     - 18-22: 98 clients
+2025-09-19 14:04:50 - advanced_pipeline - INFO -     - 53-57: 96 clients
+2025-09-19 14:04:50 - advanced_pipeline - INFO -     - 23-27: 94 clients
+2025-09-19 14:04:50 - advanced_pipeline - INFO -     - 48-52: 78 clients
+2025-09-19 14:04:50 - advanced_pipeline - INFO - 🚨 SIGNAUX POUR DÉCISION MANUELLE:
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   ✅ AUCUNE ALERTE - Modèle semble adapté aux nouvelles données
+2025-09-19 14:04:50 - advanced_pipeline - INFO - 📋 RÉSUMÉ DÉCISIONNEL:
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Âge du modèle: 0 jours
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Qualité modèle: Bonne
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Dérive détectée: Non
+2025-09-19 14:04:50 - advanced_pipeline - INFO -   Couverture: Bonne
+2025-09-19 14:04:50 - advanced_pipeline - INFO - APPLICATION MODÈLE EXISTANT
+2025-09-19 14:07:43 - advanced_pipeline - INFO - Étape 4: Scoring clients
+2025-09-19 14:08:03 - advanced_pipeline - INFO - Scoring terminé: (312356, 61)
+2025-09-19 14:08:03 - advanced_pipeline - INFO - Persistance résultats en base
+2025-09-19 14:08:03 - advanced_pipeline - INFO - === PIPELINE TERMINÉ AVEC SUCCÈS ===

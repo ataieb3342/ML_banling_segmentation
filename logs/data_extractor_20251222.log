@@ -1,0 +1,32 @@
+2025-12-22 13:54:32 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/data_extractor_20251222.log
+2025-12-22 13:54:32 - data_extractor - INFO - DataExtractor initialisé - Cache: False
+2025-12-22 13:54:32 - data_extractor - INFO - Début extraction complète
+2025-12-22 13:54:32 - data_extractor - INFO - Extraction données socles depuis la base
+2025-12-22 13:56:02 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/data_extractor_20251222.log
+2025-12-22 13:56:02 - data_extractor - INFO - DataExtractor initialisé - Cache: False
+2025-12-22 13:56:02 - data_extractor - INFO - Début extraction complète
+2025-12-22 13:56:02 - data_extractor - INFO - Extraction données socles depuis la base
+2025-12-22 13:56:35 - data_extractor - INFO - Extraction socles terminée : 311,388 lignes
+2025-12-22 13:56:35 - data_extractor - INFO - Extraction données organisationnelles depuis la base
+2025-12-22 13:56:44 - data_extractor - INFO - Extraction organisationnelle terminée : 384,591 lignes
+2025-12-22 13:56:44 - data_extractor - INFO - Extraction données financières depuis la base
+2025-12-22 13:57:34 - data_extractor - INFO - Extraction financière terminée : 453,913 lignes
+2025-12-22 13:57:35 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 13:57:37 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 13:57:37 - data_extractor - INFO - Extraction complète terminée : 311,388 lignes, 30 colonnes
+2025-12-22 14:00:30 - data_extractor - INFO - DataExtractor initialisé - Cache: True
+2025-12-22 14:00:30 - data_extractor - INFO - Chargement données financières depuis le cache
+2025-12-22 14:07:24 - data_extractor - INFO - Logger data_extractor configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/data_extractor_20251222.log
+2025-12-22 14:07:24 - data_extractor - INFO - DataExtractor initialisé - Cache: False
+2025-12-22 14:07:24 - data_extractor - INFO - Début extraction complète
+2025-12-22 14:07:24 - data_extractor - INFO - Extraction données socles depuis la base
+2025-12-22 14:08:45 - data_extractor - INFO - Extraction socles terminée : 311,388 lignes
+2025-12-22 14:08:45 - data_extractor - INFO - Extraction données organisationnelles depuis la base
+2025-12-22 14:08:59 - data_extractor - INFO - Extraction organisationnelle terminée : 384,591 lignes
+2025-12-22 14:08:59 - data_extractor - INFO - Extraction données financières depuis la base
+2025-12-22 14:09:52 - data_extractor - INFO - Extraction financière terminée : 453,913 lignes
+2025-12-22 14:09:53 - data_extractor - INFO - Données organisationnelles fusionnées
+2025-12-22 14:09:55 - data_extractor - INFO - Données financières fusionnées
+2025-12-22 14:09:55 - data_extractor - INFO - Extraction complète terminée : 311,388 lignes, 30 colonnes
+2025-12-22 14:12:50 - data_extractor - INFO - DataExtractor initialisé - Cache: True
+2025-12-22 14:12:50 - data_extractor - INFO - Chargement données financières depuis le cache

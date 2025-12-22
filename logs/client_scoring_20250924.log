@@ -1,0 +1,406 @@
+2025-09-24 09:27:20 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 09:27:20 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 09:27:20 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 09:27:20 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 09:27:20 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 09:27:21 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 09:27:21 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 09:27:22 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 09:27:22 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 09:27:22 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 09:27:23 - client_scoring - INFO - Préparation données financières
+2025-09-24 09:27:23 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 09:27:23 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 09:27:25 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 09:27:25 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 09:27:28 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 09:27:28 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 09:27:40 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 09:27:40 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 09:27:40 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 09:27:40 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 09:27:40 - client_scoring - INFO - Potentiel total : 135,433,592€
+2025-09-24 09:27:40 - client_scoring - INFO - Potentiel moyen/client : 433€
+2025-09-24 09:27:40 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 09:27:40 - client_scoring - INFO - Couverture potentiel : 98.0%
+2025-09-24 09:27:40 - client_scoring - INFO - Distribution segments :
+2025-09-24 09:27:40 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 09:27:40 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 09:27:40 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 09:27:40 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 09:27:40 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 09:27:40 - client_scoring - INFO -   - 38-42_C4: 1,600€ (5065 clients)
+2025-09-24 09:27:40 - client_scoring - INFO -   - 33-37_C5: 1,464€ (4199 clients)
+2025-09-24 09:27:40 - client_scoring - INFO -   - 48-52_C1: 1,409€ (4704 clients)
+2025-09-24 09:27:40 - client_scoring - INFO - Scoring terminé en 20.42s - 312440 clients scorés
+2025-09-24 09:27:41 - client_scoring - INFO - Complétion moyenne Credit: 45.6%
+2025-09-24 09:27:41 - client_scoring - INFO - Complétion moyenne BAQ: 50.0%
+2025-09-24 09:27:41 - client_scoring - INFO - Complétion moyenne Assurance: 50.0%
+2025-09-24 09:27:41 - client_scoring - INFO - Complétion moyenne Epargne: 80.8%
+2025-09-24 09:27:41 - client_scoring - INFO - Export CSV complétion créé : data.csv
+2025-09-24 09:27:41 - client_scoring - INFO - Données exportées : 312440 clients
+2025-09-24 09:27:41 - client_scoring - INFO - Complétion globale moyenne : 55.7%
+2025-09-24 09:27:41 - client_scoring - INFO - Complétion moyenne par univers :
+2025-09-24 09:27:41 - client_scoring - INFO -   - Crédit: 45.6%
+2025-09-24 09:27:41 - client_scoring - INFO -   - BAQ: 50.0%
+2025-09-24 09:27:41 - client_scoring - INFO -   - Assurance: 50.0%
+2025-09-24 09:27:41 - client_scoring - INFO -   - Epargne: 80.8%
+2025-09-24 09:37:51 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 09:37:51 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 09:37:51 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 09:37:51 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 09:37:51 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 09:37:53 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 09:37:53 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 09:37:53 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 09:37:54 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 09:37:54 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 09:37:54 - client_scoring - INFO - Préparation données financières
+2025-09-24 09:37:54 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 09:37:55 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 09:37:56 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 09:37:56 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 09:38:00 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 09:38:00 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 09:38:13 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 09:38:13 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 09:38:13 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 09:38:13 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 09:38:13 - client_scoring - INFO - Potentiel total : 135,433,592€
+2025-09-24 09:38:13 - client_scoring - INFO - Potentiel moyen/client : 433€
+2025-09-24 09:38:13 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 09:38:13 - client_scoring - INFO - Couverture potentiel : 98.0%
+2025-09-24 09:38:13 - client_scoring - INFO - Distribution segments :
+2025-09-24 09:38:13 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 09:38:13 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 09:38:13 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 09:38:13 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 09:38:13 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 09:38:13 - client_scoring - INFO -   - 38-42_C4: 1,600€ (5065 clients)
+2025-09-24 09:38:13 - client_scoring - INFO -   - 33-37_C5: 1,464€ (4199 clients)
+2025-09-24 09:38:13 - client_scoring - INFO -   - 48-52_C1: 1,409€ (4704 clients)
+2025-09-24 09:38:13 - client_scoring - INFO - Scoring terminé en 21.83s - 312440 clients scorés
+2025-09-24 09:38:13 - client_scoring - INFO - Début calcul pourcentages de complétion PNB
+2025-09-24 09:38:13 - client_scoring - INFO - Traitement univers Credit (PNB_CRED)
+2025-09-24 09:38:13 - client_scoring - INFO -   - Complétion moyenne Credit: 45.6%
+2025-09-24 09:38:13 - client_scoring - INFO - Traitement univers BAQ (PNB_BAQ)
+2025-09-24 09:38:13 - client_scoring - WARNING - Colonne PNB_BAQ manquante - valeurs par défaut : 0
+2025-09-24 09:38:13 - client_scoring - WARNING - Colonne POTENTIAL_PNB_BAQ manquante - potentiel par défaut : PNB actuel
+2025-09-24 09:38:13 - client_scoring - WARNING - Colonne WEIGHT_PNB_BAQ manquante - poids par défaut : 0.25
+2025-09-24 09:38:13 - client_scoring - INFO -   - Complétion moyenne BAQ: 62.5%
+2025-09-24 09:38:13 - client_scoring - INFO - Traitement univers Assurance (PNB_ASS)
+2025-09-24 09:38:13 - client_scoring - WARNING - Colonne PNB_ASS manquante - valeurs par défaut : 0
+2025-09-24 09:38:13 - client_scoring - WARNING - Colonne POTENTIAL_PNB_ASS manquante - potentiel par défaut : PNB actuel
+2025-09-24 09:38:14 - client_scoring - WARNING - Colonne WEIGHT_PNB_ASS manquante - poids par défaut : 0.25
+2025-09-24 09:38:14 - client_scoring - INFO -   - Complétion moyenne Assurance: 62.5%
+2025-09-24 09:38:14 - client_scoring - INFO - Traitement univers Epargne (PNB_COLL)
+2025-09-24 09:38:14 - client_scoring - INFO -   - Complétion moyenne Epargne: 80.8%
+2025-09-24 09:38:17 - client_scoring - INFO - === EXPORT COMPLÉTION PNB TERMINÉ ===
+2025-09-24 09:38:17 - client_scoring - INFO - Fichier créé : data.csv
+2025-09-24 09:38:17 - client_scoring - INFO - Clients exportés : 312,440
+2025-09-24 09:38:17 - client_scoring - INFO - Complétion globale moyenne : 58.9%
+2025-09-24 09:38:17 - client_scoring - INFO - Complétion moyenne Credit : 45.6%
+2025-09-24 09:38:17 - client_scoring - INFO - Complétion moyenne BAQ : 62.5%
+2025-09-24 09:38:17 - client_scoring - INFO - Complétion moyenne Assurance : 62.5%
+2025-09-24 09:38:17 - client_scoring - INFO - Complétion moyenne Epargne : 80.8%
+2025-09-24 09:38:17 - client_scoring - INFO - Distribution segments :
+2025-09-24 09:38:17 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 09:38:17 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 09:38:17 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 09:38:17 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 09:45:28 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 09:45:28 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 09:45:28 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 09:45:28 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 09:45:28 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 09:45:29 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 09:45:29 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 09:45:30 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 09:45:30 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 09:45:30 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 09:45:30 - client_scoring - INFO - Préparation données financières
+2025-09-24 09:45:30 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 09:45:31 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 09:45:32 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 09:45:32 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 09:45:35 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 09:45:35 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 09:45:47 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 09:45:47 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 09:45:47 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 09:45:47 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 09:45:47 - client_scoring - INFO - Potentiel total : 135,433,592€
+2025-09-24 09:45:47 - client_scoring - INFO - Potentiel moyen/client : 433€
+2025-09-24 09:45:47 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 09:45:47 - client_scoring - INFO - Couverture potentiel : 98.0%
+2025-09-24 09:45:47 - client_scoring - INFO - Distribution segments :
+2025-09-24 09:45:47 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 09:45:47 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 09:45:47 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 09:45:47 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 09:45:47 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 09:45:47 - client_scoring - INFO -   - 38-42_C4: 1,600€ (5065 clients)
+2025-09-24 09:45:47 - client_scoring - INFO -   - 33-37_C5: 1,464€ (4199 clients)
+2025-09-24 09:45:47 - client_scoring - INFO -   - 48-52_C1: 1,409€ (4704 clients)
+2025-09-24 09:45:47 - client_scoring - INFO - Scoring terminé en 18.50s - 312440 clients scorés
+2025-09-24 09:45:47 - client_scoring - INFO - Début calcul pourcentages de complétion PNB
+2025-09-24 09:45:47 - client_scoring - INFO - Traitement univers Credit (PNB_CRED)
+2025-09-24 09:45:47 - client_scoring - INFO -   - Complétion moyenne Credit: 45.6%
+2025-09-24 09:45:47 - client_scoring - INFO - Traitement univers BAQ (PNB_SERV)
+2025-09-24 09:45:47 - client_scoring - INFO -   - Complétion moyenne BAQ: 62.3%
+2025-09-24 09:45:47 - client_scoring - INFO - Traitement univers Assurance (PNB_ASSU)
+2025-09-24 09:45:47 - client_scoring - INFO -   - Complétion moyenne Assurance: 30.6%
+2025-09-24 09:45:47 - client_scoring - INFO - Traitement univers Epargne (PNB_COLL)
+2025-09-24 09:45:47 - client_scoring - INFO -   - Complétion moyenne Epargne: 80.8%
+2025-09-24 09:45:50 - client_scoring - INFO - === EXPORT COMPLÉTION PNB TERMINÉ ===
+2025-09-24 09:45:50 - client_scoring - INFO - Fichier créé : data.csv
+2025-09-24 09:45:50 - client_scoring - INFO - Clients exportés : 312,440
+2025-09-24 09:45:50 - client_scoring - INFO - Complétion globale moyenne : 56.5%
+2025-09-24 09:45:50 - client_scoring - INFO - Complétion moyenne Credit : 45.6%
+2025-09-24 09:45:50 - client_scoring - INFO - Complétion moyenne BAQ : 62.3%
+2025-09-24 09:45:50 - client_scoring - INFO - Complétion moyenne Assurance : 30.6%
+2025-09-24 09:45:50 - client_scoring - INFO - Complétion moyenne Epargne : 80.8%
+2025-09-24 09:45:50 - client_scoring - INFO - Distribution segments :
+2025-09-24 09:45:50 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 09:45:50 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 09:45:50 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 09:45:50 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 13:58:44 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 13:58:44 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 13:58:44 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 13:58:44 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 13:58:44 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 13:58:45 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 13:58:45 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 13:58:46 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 13:58:46 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 13:58:46 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 13:58:46 - client_scoring - INFO - Préparation données financières
+2025-09-24 13:58:46 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 13:58:47 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 13:58:49 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 13:58:49 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 13:58:52 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 13:58:52 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 13:59:05 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 13:59:05 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 13:59:05 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 13:59:05 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 13:59:05 - client_scoring - INFO - Potentiel total : 106,856,542€
+2025-09-24 13:59:05 - client_scoring - INFO - Potentiel moyen/client : 342€
+2025-09-24 13:59:05 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 13:59:05 - client_scoring - INFO - Couverture potentiel : 97.6%
+2025-09-24 13:59:05 - client_scoring - INFO - Distribution segments :
+2025-09-24 13:59:05 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 13:59:05 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 13:59:05 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 13:59:05 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 13:59:05 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 13:59:05 - client_scoring - INFO -   - 43-47_C1: 937€ (3261 clients)
+2025-09-24 13:59:05 - client_scoring - INFO -   - 38-42_C5: 888€ (2618 clients)
+2025-09-24 13:59:05 - client_scoring - INFO -   - 33-37_C4: 870€ (2292 clients)
+2025-09-24 13:59:05 - client_scoring - INFO - Scoring terminé en 20.98s - 312440 clients scorés
+2025-09-24 14:04:09 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 14:04:09 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 14:04:09 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 14:04:09 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 14:04:09 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 14:04:10 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 14:04:10 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 14:04:11 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 14:04:12 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 14:04:12 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 14:04:12 - client_scoring - INFO - Préparation données financières
+2025-09-24 14:04:12 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 14:04:13 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 14:04:14 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 14:04:14 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 14:04:17 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 14:04:18 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 14:04:30 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 14:04:30 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 14:04:30 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 14:04:30 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 14:04:30 - client_scoring - INFO - Potentiel total : 106,856,542€
+2025-09-24 14:04:30 - client_scoring - INFO - Potentiel moyen/client : 342€
+2025-09-24 14:04:30 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 14:04:30 - client_scoring - INFO - Couverture potentiel : 97.6%
+2025-09-24 14:04:30 - client_scoring - INFO - Distribution segments :
+2025-09-24 14:04:30 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 14:04:30 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 14:04:30 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 14:04:30 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 14:04:30 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 14:04:30 - client_scoring - INFO -   - 43-47_C1: 937€ (3261 clients)
+2025-09-24 14:04:30 - client_scoring - INFO -   - 38-42_C5: 888€ (2618 clients)
+2025-09-24 14:04:30 - client_scoring - INFO -   - 33-37_C4: 870€ (2292 clients)
+2025-09-24 14:04:30 - client_scoring - INFO - Scoring terminé en 20.83s - 312440 clients scorés
+2025-09-24 14:04:32 - client_scoring - INFO - Export CSV simple créé : data.csv
+2025-09-24 14:04:32 - client_scoring - INFO - Données exportées : 312440 clients
+2025-09-24 14:04:32 - client_scoring - INFO - Colonnes : clientId, segmentNumber, pnbPercentage, scores PNB (4), scores détention (4), notesMire
+2025-09-24 14:15:31 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 14:15:31 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 14:15:31 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 14:15:31 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 14:15:31 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 14:15:33 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 14:15:33 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 14:15:33 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 14:15:34 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 14:15:34 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 14:15:34 - client_scoring - INFO - Préparation données financières
+2025-09-24 14:15:34 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 14:15:35 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_ASSU préparée
+2025-09-24 14:15:36 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_CRED préparée
+2025-09-24 14:15:36 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_EPRGN préparée
+2025-09-24 14:15:37 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_SERV préparée
+2025-09-24 14:15:37 - client_scoring - INFO - Variable détention CD_NOTE_POIDS_UNVRS préparée
+2025-09-24 14:15:37 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 14:15:38 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 14:15:38 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 14:15:40 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 14:15:40 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 14:15:51 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 14:15:51 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 14:15:51 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 14:15:51 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 14:15:51 - client_scoring - INFO - Potentiel total : 106,856,542€
+2025-09-24 14:15:51 - client_scoring - INFO - Potentiel moyen/client : 342€
+2025-09-24 14:15:51 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 14:15:51 - client_scoring - INFO - Couverture potentiel : 97.6%
+2025-09-24 14:15:51 - client_scoring - INFO - Distribution segments :
+2025-09-24 14:15:51 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 14:15:51 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 14:15:51 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 14:15:51 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 14:15:51 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 14:15:51 - client_scoring - INFO -   - 43-47_C1: 937€ (3261 clients)
+2025-09-24 14:15:51 - client_scoring - INFO -   - 38-42_C5: 888€ (2618 clients)
+2025-09-24 14:15:51 - client_scoring - INFO -   - 33-37_C4: 870€ (2292 clients)
+2025-09-24 14:15:51 - client_scoring - INFO - Scoring terminé en 19.68s - 312440 clients scorés
+2025-09-24 15:02:18 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 15:02:18 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 15:02:18 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 15:02:18 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 15:02:18 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 15:02:19 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 15:02:19 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 15:02:19 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 15:02:20 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 15:02:20 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 15:02:20 - client_scoring - INFO - Préparation données financières
+2025-09-24 15:02:20 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 15:02:21 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_ASSU préparée
+2025-09-24 15:02:22 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_CRED préparée
+2025-09-24 15:02:22 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_EPRGN préparée
+2025-09-24 15:02:23 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_SERV préparée
+2025-09-24 15:02:23 - client_scoring - INFO - Variable détention CD_NOTE_POIDS_UNVRS préparée
+2025-09-24 15:02:23 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 15:02:25 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 15:02:25 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 15:02:27 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 15:02:27 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 15:02:38 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 15:02:38 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 15:02:38 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 15:02:38 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 15:02:38 - client_scoring - INFO - Potentiel total : 106,856,542€
+2025-09-24 15:02:38 - client_scoring - INFO - Potentiel moyen/client : 342€
+2025-09-24 15:02:38 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 15:02:38 - client_scoring - INFO - Couverture potentiel : 97.6%
+2025-09-24 15:02:38 - client_scoring - INFO - Distribution segments :
+2025-09-24 15:02:38 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 15:02:38 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 15:02:38 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 15:02:38 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 15:02:38 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 15:02:38 - client_scoring - INFO -   - 43-47_C1: 937€ (3261 clients)
+2025-09-24 15:02:38 - client_scoring - INFO -   - 38-42_C5: 888€ (2618 clients)
+2025-09-24 15:02:38 - client_scoring - INFO -   - 33-37_C4: 870€ (2292 clients)
+2025-09-24 15:02:38 - client_scoring - INFO - Scoring terminé en 20.15s - 312440 clients scorés
+2025-09-24 15:02:39 - client_scoring - INFO - Export CSV simple créé : data.csv
+2025-09-24 15:02:39 - client_scoring - INFO - Données exportées : 312440 clients
+2025-09-24 15:02:39 - client_scoring - INFO - Colonnes : clientId, segmentNumber, pnbPercentage, scores PNB (4), scores détention (4), notesMire
+2025-09-24 15:10:05 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 15:10:05 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 15:10:05 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 15:10:05 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 15:10:05 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 15:10:06 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 15:10:06 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 15:10:06 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 15:10:07 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 15:10:07 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 15:10:07 - client_scoring - INFO - Préparation données financières
+2025-09-24 15:10:07 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 15:10:08 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_ASSU préparée
+2025-09-24 15:10:09 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_CRED préparée
+2025-09-24 15:10:09 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_EPRGN préparée
+2025-09-24 15:10:10 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_SERV préparée
+2025-09-24 15:10:10 - client_scoring - INFO - Variable détention CD_NOTE_POIDS_UNVRS préparée
+2025-09-24 15:10:10 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 15:10:11 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 15:10:11 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 15:10:13 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 15:10:13 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 15:10:25 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 15:10:25 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 15:10:25 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 15:10:25 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 15:10:25 - client_scoring - INFO - Potentiel total : 106,856,542€
+2025-09-24 15:10:25 - client_scoring - INFO - Potentiel moyen/client : 342€
+2025-09-24 15:10:25 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 15:10:25 - client_scoring - INFO - Couverture potentiel : 97.6%
+2025-09-24 15:10:25 - client_scoring - INFO - Distribution segments :
+2025-09-24 15:10:25 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 15:10:25 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 15:10:25 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 15:10:25 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 15:10:25 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 15:10:25 - client_scoring - INFO -   - 43-47_C1: 937€ (3261 clients)
+2025-09-24 15:10:25 - client_scoring - INFO -   - 38-42_C5: 888€ (2618 clients)
+2025-09-24 15:10:25 - client_scoring - INFO -   - 33-37_C4: 870€ (2292 clients)
+2025-09-24 15:10:25 - client_scoring - INFO - Scoring terminé en 19.82s - 312440 clients scorés
+2025-09-24 15:16:11 - client_scoring - INFO - Logger client_scoring configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/client_scoring_20250924.log
+2025-09-24 15:16:11 - client_scoring - INFO - ClientScoringEngine initialisé - Top clients: 25.0%
+2025-09-24 15:16:11 - client_scoring - INFO - Début calcul scores clients intra-cluster
+2025-09-24 15:16:11 - client_scoring - INFO - Données clusterisées : (312440, 12)
+2025-09-24 15:16:11 - client_scoring - INFO - Données financières : (452792, 17)
+2025-09-24 15:16:12 - client_scoring - INFO - Données fusionnées : (312440, 28)
+2025-09-24 15:16:12 - client_scoring - INFO - Nettoyage colonne CLUSTER_GLOBAL
+2025-09-24 15:16:13 - client_scoring - INFO - Validation groupby réussie : 50 groupes
+2025-09-24 15:16:13 - client_scoring - INFO - Clients clusterisés retenus : 312440
+2025-09-24 15:16:13 - client_scoring - INFO - Clusters uniques : 50
+2025-09-24 15:16:13 - client_scoring - INFO - Préparation données financières
+2025-09-24 15:16:13 - client_scoring - INFO - Colonnes PNB disponibles : ['PNB_COLL', 'PNB_CRED', 'PNB_SERV', 'PNB_ASSU']
+2025-09-24 15:16:14 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_ASSU préparée
+2025-09-24 15:16:15 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_CRED préparée
+2025-09-24 15:16:15 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_EPRGN préparée
+2025-09-24 15:16:16 - client_scoring - INFO - Variable détention CD_NOTE_UNVRS_SERV préparée
+2025-09-24 15:16:16 - client_scoring - INFO - Variable détention CD_NOTE_POIDS_UNVRS préparée
+2025-09-24 15:16:16 - client_scoring - INFO - Calcul pondération et normalisation PNB par cluster
+2025-09-24 15:16:18 - client_scoring - INFO - Score client calculé avec 4 composantes
+2025-09-24 15:16:18 - client_scoring - INFO - Calcul potentiels clients (top 25% par cluster)
+2025-09-24 15:16:20 - client_scoring - INFO - Potentiels calculés basés sur 78093 clients top 25%
+2025-09-24 15:16:20 - client_scoring - INFO - Calcul segmentation finale
+2025-09-24 15:16:30 - client_scoring - INFO - === MÉTRIQUES DE QUALITÉ SCORING ===
+2025-09-24 15:16:30 - client_scoring - INFO - Clients scorés : 312,440
+2025-09-24 15:16:30 - client_scoring - INFO - Clusters analysés : 50
+2025-09-24 15:16:30 - client_scoring - INFO - Score client moyen : 0.272
+2025-09-24 15:16:30 - client_scoring - INFO - Potentiel total : 106,856,542€
+2025-09-24 15:16:30 - client_scoring - INFO - Potentiel moyen/client : 342€
+2025-09-24 15:16:30 - client_scoring - INFO - Couverture scoring : 100.0%
+2025-09-24 15:16:30 - client_scoring - INFO - Couverture potentiel : 97.6%
+2025-09-24 15:16:30 - client_scoring - INFO - Distribution segments :
+2025-09-24 15:16:30 - client_scoring - INFO -   - A developper: 105,290 clients (33.7%)
+2025-09-24 15:16:30 - client_scoring - INFO -   - A stimuler: 97,845 clients (31.3%)
+2025-09-24 15:16:30 - client_scoring - INFO -   - A construire: 83,215 clients (26.6%)
+2025-09-24 15:16:30 - client_scoring - INFO -   - A entretenir: 26,090 clients (8.4%)
+2025-09-24 15:16:30 - client_scoring - INFO - Top 3 clusters par potentiel moyen :
+2025-09-24 15:16:30 - client_scoring - INFO -   - 43-47_C1: 937€ (3261 clients)
+2025-09-24 15:16:30 - client_scoring - INFO -   - 38-42_C5: 888€ (2618 clients)
+2025-09-24 15:16:30 - client_scoring - INFO -   - 33-37_C4: 870€ (2292 clients)
+2025-09-24 15:16:30 - client_scoring - INFO - Scoring terminé en 19.73s - 312440 clients scorés
+2025-09-24 15:17:20 - client_scoring - INFO - Export CSV simple créé : data.xlsx
+2025-09-24 15:17:20 - client_scoring - INFO - Données exportées : 312440 clients
+2025-09-24 15:17:20 - client_scoring - INFO - Colonnes : clientId, segmentNumber, pnbPercentage, scores PNB (4), scores détention (4), notesMire

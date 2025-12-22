@@ -1,0 +1,332 @@
+2025-09-19 10:17:08 - age_clustering - INFO - Logger age_clustering configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/age_clustering_20250919.log
+2025-09-19 10:17:08 - age_clustering - INFO - AgeClusterer initialisé - Version: 20250919_101708
+2025-09-19 10:17:08 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-09-19 10:17:08 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-09-19 10:17:08 - age_clustering - INFO - === DÉBUT ENTRAÎNEMENT CLUSTERING STRATIFIÉ ===
+2025-09-19 10:17:08 - age_clustering - INFO - Version modèle: 20250919_101708
+2025-09-19 10:17:08 - age_clustering - INFO - Données d'entrée : (312412, 9)
+2025-09-19 10:17:08 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 100 ans (μ=49.9±20.2)
+2025-09-19 10:17:08 - age_clustering - INFO - Features utilisées : 7 : ['Situation_Couple', 'Situation_Celibataire', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']
+2025-09-19 10:17:08 - age_clustering - INFO - === DISTRIBUTION PAR STRATE ===
+2025-09-19 10:17:08 - age_clustering - INFO -   18-22 (18-22): 28,010 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   23-27 (23-27): 27,587 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   28-32 (28-32): 23,275 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   33-37 (33-37): 22,537 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   38-42 (38-42): 23,589 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   43-47 (43-47): 24,199 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   48-52 (48-52): 23,227 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   53-57 (53-57): 24,585 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   58-62 (58-62): 23,328 clients
+2025-09-19 10:17:08 - age_clustering - INFO -   63+ (63+): 92,075 clients
+2025-09-19 10:17:08 - age_clustering - INFO - --- CLUSTERING STRATE 18-22 ---
+2025-09-19 10:17:08 - age_clustering - INFO - OPTIMISATION K - 18-22:
+2025-09-19 10:17:08 - age_clustering - INFO -   K=2: Silhouette=INVALID, MinSize=439
+2025-09-19 10:17:08 - age_clustering - INFO -   K=3: Silhouette=INVALID, MinSize=79
+2025-09-19 10:17:08 - age_clustering - INFO -   K=4: Silhouette=INVALID, MinSize=79
+2025-09-19 10:17:08 - age_clustering - INFO -   K=5: Silhouette=INVALID, MinSize=79
+2025-09-19 10:17:08 - age_clustering - INFO -   K=6: Silhouette=INVALID, MinSize=79
+2025-09-19 10:17:08 - age_clustering - WARNING - FALLBACK K=1 - 18-22: aucun K valide
+2025-09-19 10:17:08 - age_clustering - INFO - CLUSTER UNIQUE - 18-22
+2025-09-19 10:17:08 - age_clustering - INFO - RÉSULTAT - 18-22: 1 clusters, Silhouette=0.000
+2025-09-19 10:17:08 - age_clustering - INFO - --- CLUSTERING STRATE 23-27 ---
+2025-09-19 10:17:50 - age_clustering - INFO - OPTIMISATION K - 23-27:
+2025-09-19 10:17:50 - age_clustering - INFO -   K=2: Silhouette=0.6929449870931861, MinSize=3217
+2025-09-19 10:17:50 - age_clustering - INFO -   K=3: Silhouette=0.7439541878785493, MinSize=813
+2025-09-19 10:17:50 - age_clustering - INFO -   K=4: Silhouette=0.7740075869027124, MinSize=813
+2025-09-19 10:17:50 - age_clustering - INFO -   K=5: Silhouette=0.8023467453715155, MinSize=813
+2025-09-19 10:17:50 - age_clustering - INFO -   K=6: Silhouette=INVALID, MinSize=574
+2025-09-19 10:17:50 - age_clustering - INFO - K OPTIMAL - 23-27: K=5 (Silhouette=0.802)
+2025-09-19 10:17:59 - age_clustering - INFO - RÉSULTAT - 23-27: 5 clusters, Silhouette=0.802
+2025-09-19 10:17:59 - age_clustering - INFO - --- CLUSTERING STRATE 28-32 ---
+2025-09-19 10:18:36 - age_clustering - INFO - OPTIMISATION K - 28-32:
+2025-09-19 10:18:36 - age_clustering - INFO -   K=2: Silhouette=0.4704301341694863, MinSize=7150
+2025-09-19 10:18:36 - age_clustering - INFO -   K=3: Silhouette=0.5293841645369767, MinSize=3307
+2025-09-19 10:18:36 - age_clustering - INFO -   K=4: Silhouette=0.6108052030063489, MinSize=3307
+2025-09-19 10:18:36 - age_clustering - INFO -   K=5: Silhouette=0.642444659260268, MinSize=1505
+2025-09-19 10:18:36 - age_clustering - INFO -   K=6: Silhouette=0.69050461506184, MinSize=1505
+2025-09-19 10:18:36 - age_clustering - INFO - K OPTIMAL - 28-32: K=6 (Silhouette=0.691)
+2025-09-19 10:18:43 - age_clustering - INFO - RÉSULTAT - 28-32: 6 clusters, Silhouette=0.691
+2025-09-19 10:18:43 - age_clustering - INFO - --- CLUSTERING STRATE 33-37 ---
+2025-09-19 10:19:17 - age_clustering - INFO - OPTIMISATION K - 33-37:
+2025-09-19 10:19:17 - age_clustering - INFO -   K=2: Silhouette=0.40228387307283675, MinSize=7510
+2025-09-19 10:19:17 - age_clustering - INFO -   K=3: Silhouette=0.43655999886298186, MinSize=5210
+2025-09-19 10:19:17 - age_clustering - INFO -   K=4: Silhouette=0.49395457127925596, MinSize=2914
+2025-09-19 10:19:17 - age_clustering - INFO -   K=5: Silhouette=0.5696788582572586, MinSize=2610
+2025-09-19 10:19:17 - age_clustering - INFO -   K=6: Silhouette=0.6307300619684405, MinSize=2296
+2025-09-19 10:19:17 - age_clustering - INFO - K OPTIMAL - 33-37: K=6 (Silhouette=0.631)
+2025-09-19 10:19:25 - age_clustering - INFO - RÉSULTAT - 33-37: 6 clusters, Silhouette=0.631
+2025-09-19 10:19:25 - age_clustering - INFO - --- CLUSTERING STRATE 38-42 ---
+2025-09-19 10:20:03 - age_clustering - INFO - OPTIMISATION K - 38-42:
+2025-09-19 10:20:03 - age_clustering - INFO -   K=2: Silhouette=0.37319880049914966, MinSize=10076
+2025-09-19 10:20:03 - age_clustering - INFO -   K=3: Silhouette=0.41046592328579473, MinSize=5676
+2025-09-19 10:20:03 - age_clustering - INFO -   K=4: Silhouette=0.4887374584696831, MinSize=4349
+2025-09-19 10:20:03 - age_clustering - INFO -   K=5: Silhouette=0.5426798097723454, MinSize=3057
+2025-09-19 10:20:03 - age_clustering - INFO -   K=6: Silhouette=0.6039037209626602, MinSize=2619
+2025-09-19 10:20:03 - age_clustering - INFO - K OPTIMAL - 38-42: K=6 (Silhouette=0.604)
+2025-09-19 10:20:10 - age_clustering - INFO - RÉSULTAT - 38-42: 6 clusters, Silhouette=0.604
+2025-09-19 10:20:10 - age_clustering - INFO - --- CLUSTERING STRATE 43-47 ---
+2025-09-19 10:20:49 - age_clustering - INFO - OPTIMISATION K - 43-47:
+2025-09-19 10:20:49 - age_clustering - INFO -   K=2: Silhouette=0.36881832235375356, MinSize=11289
+2025-09-19 10:20:49 - age_clustering - INFO -   K=3: Silhouette=0.4163150653553249, MinSize=6503
+2025-09-19 10:20:49 - age_clustering - INFO -   K=4: Silhouette=0.48608303695694943, MinSize=3524
+2025-09-19 10:20:49 - age_clustering - INFO -   K=5: Silhouette=0.5247751117880676, MinSize=2531
+2025-09-19 10:20:49 - age_clustering - INFO -   K=6: Silhouette=0.6059518357759947, MinSize=2531
+2025-09-19 10:20:49 - age_clustering - INFO - K OPTIMAL - 43-47: K=6 (Silhouette=0.606)
+2025-09-19 10:20:57 - age_clustering - INFO - RÉSULTAT - 43-47: 6 clusters, Silhouette=0.606
+2025-09-19 10:20:57 - age_clustering - INFO - --- CLUSTERING STRATE 48-52 ---
+2025-09-19 10:21:32 - age_clustering - INFO - OPTIMISATION K - 48-52:
+2025-09-19 10:21:32 - age_clustering - INFO -   K=2: Silhouette=0.35677643694781447, MinSize=10626
+2025-09-19 10:21:32 - age_clustering - INFO -   K=3: Silhouette=0.44141101181761777, MinSize=5852
+2025-09-19 10:21:32 - age_clustering - INFO -   K=4: Silhouette=0.5025776851220861, MinSize=4056
+2025-09-19 10:21:32 - age_clustering - INFO -   K=5: Silhouette=0.5821268087141718, MinSize=2502
+2025-09-19 10:21:32 - age_clustering - INFO -   K=6: Silhouette=0.6442122226489365, MinSize=2050
+2025-09-19 10:21:32 - age_clustering - INFO - K OPTIMAL - 48-52: K=6 (Silhouette=0.644)
+2025-09-19 10:21:40 - age_clustering - INFO - RÉSULTAT - 48-52: 6 clusters, Silhouette=0.644
+2025-09-19 10:21:40 - age_clustering - INFO - --- CLUSTERING STRATE 53-57 ---
+2025-09-19 10:22:19 - age_clustering - INFO - OPTIMISATION K - 53-57:
+2025-09-19 10:22:19 - age_clustering - INFO -   K=2: Silhouette=0.3809145550360812, MinSize=11471
+2025-09-19 10:22:19 - age_clustering - INFO -   K=3: Silhouette=0.475722514332777, MinSize=3239
+2025-09-19 10:22:19 - age_clustering - INFO -   K=4: Silhouette=0.5589819946302326, MinSize=3239
+2025-09-19 10:22:19 - age_clustering - INFO -   K=5: Silhouette=0.6610392346177782, MinSize=2894
+2025-09-19 10:22:19 - age_clustering - INFO -   K=6: Silhouette=0.6854478281014276, MinSize=2407
+2025-09-19 10:22:19 - age_clustering - INFO - K OPTIMAL - 53-57: K=6 (Silhouette=0.685)
+2025-09-19 10:22:27 - age_clustering - INFO - RÉSULTAT - 53-57: 6 clusters, Silhouette=0.685
+2025-09-19 10:22:27 - age_clustering - INFO - --- CLUSTERING STRATE 58-62 ---
+2025-09-19 10:23:05 - age_clustering - INFO - OPTIMISATION K - 58-62:
+2025-09-19 10:23:05 - age_clustering - INFO -   K=2: Silhouette=0.4223173436285338, MinSize=10460
+2025-09-19 10:23:05 - age_clustering - INFO -   K=3: Silhouette=0.485318751404682, MinSize=929
+2025-09-19 10:23:05 - age_clustering - INFO -   K=4: Silhouette=0.5829940246976729, MinSize=929
+2025-09-19 10:23:05 - age_clustering - INFO -   K=5: Silhouette=0.6833270159076674, MinSize=929
+2025-09-19 10:23:05 - age_clustering - INFO -   K=6: Silhouette=0.7123328544382171, MinSize=929
+2025-09-19 10:23:05 - age_clustering - INFO - K OPTIMAL - 58-62: K=6 (Silhouette=0.712)
+2025-09-19 10:23:13 - age_clustering - INFO - RÉSULTAT - 58-62: 6 clusters, Silhouette=0.712
+2025-09-19 10:23:13 - age_clustering - INFO - --- CLUSTERING STRATE 63+ ---
+2025-09-19 10:25:06 - age_clustering - INFO - OPTIMISATION K - 63+:
+2025-09-19 10:25:06 - age_clustering - INFO -   K=2: Silhouette=0.5341755169504748, MinSize=42492
+2025-09-19 10:25:06 - age_clustering - INFO -   K=3: Silhouette=INVALID, MinSize=338
+2025-09-19 10:25:07 - age_clustering - INFO -   K=4: Silhouette=INVALID, MinSize=338
+2025-09-19 10:25:07 - age_clustering - INFO -   K=5: Silhouette=INVALID, MinSize=338
+2025-09-19 10:25:07 - age_clustering - INFO -   K=6: Silhouette=INVALID, MinSize=338
+2025-09-19 10:25:07 - age_clustering - INFO - K OPTIMAL - 63+: K=2 (Silhouette=0.534)
+2025-09-19 10:26:58 - age_clustering - INFO - RÉSULTAT - 63+: 2 clusters, Silhouette=0.534
+2025-09-19 10:26:59 - age_clustering - INFO - MODÈLE SAUVEGARDÉ - /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_101708.pkl
+2025-09-19 10:26:59 - age_clustering - INFO - HISTORIQUE MIS À JOUR - 9 entrées
+2025-09-19 10:26:59 - age_clustering - INFO - === ANALYSE QUALITÉ & ALERTES ===
+2025-09-19 10:26:59 - age_clustering - INFO - QUALITÉ GLOBALE: BONNE (Silhouette=0.657)
+2025-09-19 10:26:59 - age_clustering - INFO - MODÈLE STABLE - Performances constantes, recalcul non urgent
+2025-09-19 10:26:59 - age_clustering - INFO - === ENTRAÎNEMENT TERMINÉ ===
+2025-09-19 10:26:59 - age_clustering - INFO - Durée: 591.46s - 50 clusters créés
+2025-09-19 10:26:59 - age_clustering - INFO - Modèle sauvegardé: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_101708.pkl
+2025-09-19 13:42:17 - age_clustering - INFO - Logger age_clustering configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/age_clustering_20250919.log
+2025-09-19 13:42:17 - age_clustering - INFO - AgeClusterer initialisé - Version: 20250919_134217
+2025-09-19 13:42:17 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-09-19 13:42:17 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-09-19 13:42:17 - age_clustering - INFO - === DÉBUT ENTRAÎNEMENT CLUSTERING STRATIFIÉ ===
+2025-09-19 13:42:17 - age_clustering - INFO - Version modèle: 20250919_134217
+2025-09-19 13:42:17 - age_clustering - INFO - Données d'entrée : (312412, 9)
+2025-09-19 13:42:17 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 100 ans (μ=49.9±20.2)
+2025-09-19 13:42:17 - age_clustering - INFO - Features utilisées : 7 : ['Situation_Couple', 'Situation_Celibataire', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']
+2025-09-19 13:42:17 - age_clustering - INFO - === DISTRIBUTION PAR STRATE ===
+2025-09-19 13:42:17 - age_clustering - INFO -   18-22 (18-22): 28,010 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   23-27 (23-27): 27,587 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   28-32 (28-32): 23,275 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   33-37 (33-37): 22,537 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   38-42 (38-42): 23,589 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   43-47 (43-47): 24,199 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   48-52 (48-52): 23,227 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   53-57 (53-57): 24,585 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   58-62 (58-62): 23,328 clients
+2025-09-19 13:42:17 - age_clustering - INFO -   63+ (63+): 92,075 clients
+2025-09-19 13:42:17 - age_clustering - INFO - --- CLUSTERING STRATE 18-22 ---
+2025-09-19 13:42:18 - age_clustering - INFO - OPTIMISATION K - 18-22:
+2025-09-19 13:42:18 - age_clustering - INFO -   K=2: Silhouette=INVALID, MinSize=439
+2025-09-19 13:42:18 - age_clustering - INFO -   K=3: Silhouette=INVALID, MinSize=79
+2025-09-19 13:42:18 - age_clustering - INFO -   K=4: Silhouette=INVALID, MinSize=79
+2025-09-19 13:42:18 - age_clustering - INFO -   K=5: Silhouette=INVALID, MinSize=79
+2025-09-19 13:42:18 - age_clustering - INFO -   K=6: Silhouette=INVALID, MinSize=79
+2025-09-19 13:42:18 - age_clustering - WARNING - FALLBACK K=1 - 18-22: aucun K valide
+2025-09-19 13:42:18 - age_clustering - INFO - CLUSTER UNIQUE - 18-22
+2025-09-19 13:42:18 - age_clustering - INFO - RÉSULTAT - 18-22: 1 clusters, Silhouette=0.000
+2025-09-19 13:42:18 - age_clustering - INFO - --- CLUSTERING STRATE 23-27 ---
+2025-09-19 13:43:00 - age_clustering - INFO - OPTIMISATION K - 23-27:
+2025-09-19 13:43:00 - age_clustering - INFO -   K=2: Silhouette=0.6928610077023477, MinSize=3217
+2025-09-19 13:43:00 - age_clustering - INFO -   K=3: Silhouette=0.7440238242320842, MinSize=813
+2025-09-19 13:43:00 - age_clustering - INFO -   K=4: Silhouette=0.7739128509406848, MinSize=813
+2025-09-19 13:43:00 - age_clustering - INFO -   K=5: Silhouette=0.8022345244518092, MinSize=813
+2025-09-19 13:43:00 - age_clustering - INFO -   K=6: Silhouette=INVALID, MinSize=574
+2025-09-19 13:43:00 - age_clustering - INFO - K OPTIMAL - 23-27: K=5 (Silhouette=0.802)
+2025-09-19 13:43:10 - age_clustering - INFO - RÉSULTAT - 23-27: 5 clusters, Silhouette=0.802
+2025-09-19 13:43:10 - age_clustering - INFO - --- CLUSTERING STRATE 28-32 ---
+2025-09-19 13:43:48 - age_clustering - INFO - OPTIMISATION K - 28-32:
+2025-09-19 13:43:48 - age_clustering - INFO -   K=2: Silhouette=0.47047532011882714, MinSize=7150
+2025-09-19 13:43:48 - age_clustering - INFO -   K=3: Silhouette=0.5294220315355274, MinSize=3307
+2025-09-19 13:43:48 - age_clustering - INFO -   K=4: Silhouette=0.6108373481181101, MinSize=3307
+2025-09-19 13:43:48 - age_clustering - INFO -   K=5: Silhouette=0.6425032705973674, MinSize=1505
+2025-09-19 13:43:48 - age_clustering - INFO -   K=6: Silhouette=0.6905512096571291, MinSize=1505
+2025-09-19 13:43:48 - age_clustering - INFO - K OPTIMAL - 28-32: K=6 (Silhouette=0.691)
+2025-09-19 13:43:55 - age_clustering - INFO - RÉSULTAT - 28-32: 6 clusters, Silhouette=0.691
+2025-09-19 13:43:55 - age_clustering - INFO - --- CLUSTERING STRATE 33-37 ---
+2025-09-19 13:44:31 - age_clustering - INFO - OPTIMISATION K - 33-37:
+2025-09-19 13:44:31 - age_clustering - INFO -   K=2: Silhouette=0.40225180670862704, MinSize=7510
+2025-09-19 13:44:31 - age_clustering - INFO -   K=3: Silhouette=0.4364317079215266, MinSize=5210
+2025-09-19 13:44:31 - age_clustering - INFO -   K=4: Silhouette=0.4940220798336002, MinSize=2914
+2025-09-19 13:44:31 - age_clustering - INFO -   K=5: Silhouette=0.5695226166399376, MinSize=2610
+2025-09-19 13:44:31 - age_clustering - INFO -   K=6: Silhouette=0.6305905460800757, MinSize=2296
+2025-09-19 13:44:31 - age_clustering - INFO - K OPTIMAL - 33-37: K=6 (Silhouette=0.631)
+2025-09-19 13:44:38 - age_clustering - INFO - RÉSULTAT - 33-37: 6 clusters, Silhouette=0.631
+2025-09-19 13:44:38 - age_clustering - INFO - --- CLUSTERING STRATE 38-42 ---
+2025-09-19 13:45:17 - age_clustering - INFO - OPTIMISATION K - 38-42:
+2025-09-19 13:45:17 - age_clustering - INFO -   K=2: Silhouette=0.3730091840365588, MinSize=10076
+2025-09-19 13:45:17 - age_clustering - INFO -   K=3: Silhouette=0.4100542322881306, MinSize=5676
+2025-09-19 13:45:17 - age_clustering - INFO -   K=4: Silhouette=0.48839083493128427, MinSize=4349
+2025-09-19 13:45:17 - age_clustering - INFO -   K=5: Silhouette=0.5375975598804986, MinSize=3250
+2025-09-19 13:45:17 - age_clustering - INFO -   K=6: Silhouette=0.6032713721448556, MinSize=2619
+2025-09-19 13:45:17 - age_clustering - INFO - K OPTIMAL - 38-42: K=6 (Silhouette=0.603)
+2025-09-19 13:45:25 - age_clustering - INFO - RÉSULTAT - 38-42: 6 clusters, Silhouette=0.603
+2025-09-19 13:45:25 - age_clustering - INFO - --- CLUSTERING STRATE 43-47 ---
+2025-09-19 13:46:06 - age_clustering - INFO - OPTIMISATION K - 43-47:
+2025-09-19 13:46:06 - age_clustering - INFO -   K=2: Silhouette=0.3688483585280397, MinSize=11289
+2025-09-19 13:46:06 - age_clustering - INFO -   K=3: Silhouette=0.4164164932602261, MinSize=6503
+2025-09-19 13:46:06 - age_clustering - INFO -   K=4: Silhouette=0.48608917641960453, MinSize=3524
+2025-09-19 13:46:06 - age_clustering - INFO -   K=5: Silhouette=0.5293741368215423, MinSize=3260
+2025-09-19 13:46:06 - age_clustering - INFO -   K=6: Silhouette=0.60882994754986, MinSize=3111
+2025-09-19 13:46:06 - age_clustering - INFO - K OPTIMAL - 43-47: K=6 (Silhouette=0.609)
+2025-09-19 13:46:14 - age_clustering - INFO - RÉSULTAT - 43-47: 6 clusters, Silhouette=0.609
+2025-09-19 13:46:14 - age_clustering - INFO - --- CLUSTERING STRATE 48-52 ---
+2025-09-19 13:46:51 - age_clustering - INFO - OPTIMISATION K - 48-52:
+2025-09-19 13:46:51 - age_clustering - INFO -   K=2: Silhouette=0.3568449121579303, MinSize=10626
+2025-09-19 13:46:51 - age_clustering - INFO -   K=3: Silhouette=0.4415747592556322, MinSize=5852
+2025-09-19 13:46:51 - age_clustering - INFO -   K=4: Silhouette=0.48634865950922934, MinSize=4056
+2025-09-19 13:46:51 - age_clustering - INFO -   K=5: Silhouette=0.5822062630155687, MinSize=2502
+2025-09-19 13:46:51 - age_clustering - INFO -   K=6: Silhouette=0.6441951732336413, MinSize=2050
+2025-09-19 13:46:51 - age_clustering - INFO - K OPTIMAL - 48-52: K=6 (Silhouette=0.644)
+2025-09-19 13:46:58 - age_clustering - INFO - RÉSULTAT - 48-52: 6 clusters, Silhouette=0.644
+2025-09-19 13:46:58 - age_clustering - INFO - --- CLUSTERING STRATE 53-57 ---
+2025-09-19 13:47:39 - age_clustering - INFO - OPTIMISATION K - 53-57:
+2025-09-19 13:47:39 - age_clustering - INFO -   K=2: Silhouette=0.3809082941242253, MinSize=11471
+2025-09-19 13:47:39 - age_clustering - INFO -   K=3: Silhouette=0.46741659137013064, MinSize=3239
+2025-09-19 13:47:39 - age_clustering - INFO -   K=4: Silhouette=0.5590425814272011, MinSize=3239
+2025-09-19 13:47:39 - age_clustering - INFO -   K=5: Silhouette=0.6613253551992767, MinSize=2894
+2025-09-19 13:47:39 - age_clustering - INFO -   K=6: Silhouette=0.6729405947610149, MinSize=918
+2025-09-19 13:47:39 - age_clustering - INFO - K OPTIMAL - 53-57: K=6 (Silhouette=0.673)
+2025-09-19 13:47:47 - age_clustering - INFO - RÉSULTAT - 53-57: 6 clusters, Silhouette=0.673
+2025-09-19 13:47:47 - age_clustering - INFO - --- CLUSTERING STRATE 58-62 ---
+2025-09-19 13:48:25 - age_clustering - INFO - OPTIMISATION K - 58-62:
+2025-09-19 13:48:25 - age_clustering - INFO -   K=2: Silhouette=0.4222596379012659, MinSize=10460
+2025-09-19 13:48:25 - age_clustering - INFO -   K=3: Silhouette=0.4851667900556235, MinSize=929
+2025-09-19 13:48:25 - age_clustering - INFO -   K=4: Silhouette=0.582830379667075, MinSize=929
+2025-09-19 13:48:25 - age_clustering - INFO -   K=5: Silhouette=0.6830913660805239, MinSize=929
+2025-09-19 13:48:25 - age_clustering - INFO -   K=6: Silhouette=0.7120764893318018, MinSize=929
+2025-09-19 13:48:25 - age_clustering - INFO - K OPTIMAL - 58-62: K=6 (Silhouette=0.712)
+2025-09-19 13:48:32 - age_clustering - INFO - RÉSULTAT - 58-62: 6 clusters, Silhouette=0.712
+2025-09-19 13:48:32 - age_clustering - INFO - --- CLUSTERING STRATE 63+ ---
+2025-09-19 13:50:27 - age_clustering - INFO - OPTIMISATION K - 63+:
+2025-09-19 13:50:27 - age_clustering - INFO -   K=2: Silhouette=0.5290362030249108, MinSize=25748
+2025-09-19 13:50:27 - age_clustering - INFO -   K=3: Silhouette=INVALID, MinSize=338
+2025-09-19 13:50:27 - age_clustering - INFO -   K=4: Silhouette=INVALID, MinSize=338
+2025-09-19 13:50:27 - age_clustering - INFO -   K=5: Silhouette=INVALID, MinSize=338
+2025-09-19 13:50:27 - age_clustering - INFO -   K=6: Silhouette=INVALID, MinSize=338
+2025-09-19 13:50:27 - age_clustering - INFO - K OPTIMAL - 63+: K=2 (Silhouette=0.529)
+2025-09-19 13:52:18 - age_clustering - INFO - RÉSULTAT - 63+: 2 clusters, Silhouette=0.529
+2025-09-19 13:52:19 - age_clustering - INFO - MODÈLE SAUVEGARDÉ - /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-09-19 13:52:19 - age_clustering - INFO - HISTORIQUE MIS À JOUR - 10 entrées
+2025-09-19 13:52:19 - age_clustering - INFO - === ANALYSE QUALITÉ & ALERTES ===
+2025-09-19 13:52:19 - age_clustering - INFO - QUALITÉ GLOBALE: BONNE (Silhouette=0.655)
+2025-09-19 13:52:19 - age_clustering - INFO - MODÈLE STABLE - Performances constantes, recalcul non urgent
+2025-09-19 13:52:19 - age_clustering - INFO - === ENTRAÎNEMENT TERMINÉ ===
+2025-09-19 13:52:19 - age_clustering - INFO - Durée: 602.19s - 50 clusters créés
+2025-09-19 13:52:19 - age_clustering - INFO - Modèle sauvegardé: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-09-19 14:04:49 - age_clustering - INFO - Logger age_clustering configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/age_clustering_20250919.log
+2025-09-19 14:04:49 - age_clustering - INFO - AgeClusterer initialisé - Version: 20250919_140449
+2025-09-19 14:04:49 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-09-19 14:04:49 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-09-19 14:04:49 - age_clustering - INFO - Chargement modèle depuis : /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-09-19 14:04:49 - age_clustering - INFO - === MODÈLE CHARGÉ AVEC SUCCÈS ===
+2025-09-19 14:04:49 - age_clustering - INFO - Version: 20250919_134217
+2025-09-19 14:04:49 - age_clustering - INFO - Date entraînement: 2025-09-19T13:52:19.631915
+2025-09-19 14:04:49 - age_clustering - INFO - Nb échantillons: 312412
+2025-09-19 14:04:49 - age_clustering - INFO - Score silhouette moyen: 0.655
+2025-09-19 14:04:49 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-09-19 14:04:49 - age_clustering - INFO - Nouvelles données : (1000, 9)
+2025-09-19 14:04:49 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 97 ans (μ=49.7±20.1)
+2025-09-19 14:04:50 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-09-19 14:04:50 - age_clustering - INFO - 23-27: Silhouette 0.802→0.810 (94 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 28-32: Silhouette 0.691→0.608 (62 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 33-37: Silhouette 0.631→0.646 (63 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 38-42: Silhouette 0.603→0.599 (78 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 43-47: Silhouette 0.609→0.629 (75 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 48-52: Silhouette 0.644→0.652 (78 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 53-57: Silhouette 0.673→0.641 (96 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 58-62: Silhouette 0.712→0.733 (66 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - 63+: Silhouette 0.529→0.504 (290 clients)
+2025-09-19 14:04:50 - age_clustering - INFO - Application terminée en 0.23s - 1000/1000 clients assignés
+2025-09-19 14:04:50 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-09-19 14:04:50 - age_clustering - INFO - Nouvelles données : (312412, 9)
+2025-09-19 14:04:50 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 100 ans (μ=49.9±20.2)
+2025-09-19 14:07:43 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-09-19 14:07:43 - age_clustering - INFO - 23-27: Silhouette 0.802→0.802 (27587 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 28-32: Silhouette 0.691→0.691 (23275 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 33-37: Silhouette 0.631→0.630 (22537 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 38-42: Silhouette 0.603→0.603 (23589 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 43-47: Silhouette 0.609→0.609 (24199 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 48-52: Silhouette 0.644→0.644 (23227 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 53-57: Silhouette 0.673→0.673 (24585 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 58-62: Silhouette 0.712→0.712 (23328 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - 63+: Silhouette 0.529→0.529 (92075 clients)
+2025-09-19 14:07:43 - age_clustering - INFO - Application terminée en 173.11s - 312412/312412 clients assignés
+2025-09-19 14:57:59 - age_clustering - INFO - Logger age_clustering configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/age_clustering_20250919.log
+2025-09-19 14:57:59 - age_clustering - INFO - AgeClusterer initialisé - Version: 20250919_145759
+2025-09-19 14:57:59 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-09-19 14:57:59 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-09-19 14:57:59 - age_clustering - INFO - Chargement modèle depuis : /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-09-19 14:57:59 - age_clustering - INFO - === MODÈLE CHARGÉ AVEC SUCCÈS ===
+2025-09-19 14:57:59 - age_clustering - INFO - Version: 20250919_134217
+2025-09-19 14:57:59 - age_clustering - INFO - Date entraînement: 2025-09-19T13:52:19.631915
+2025-09-19 14:57:59 - age_clustering - INFO - Nb échantillons: 312412
+2025-09-19 14:57:59 - age_clustering - INFO - Score silhouette moyen: 0.655
+2025-09-19 14:58:00 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-09-19 14:58:00 - age_clustering - INFO - Nouvelles données : (1000, 9)
+2025-09-19 14:58:00 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 97 ans (μ=49.7±20.1)
+2025-09-19 14:58:00 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-09-19 14:58:00 - age_clustering - INFO - 23-27: Silhouette 0.802→0.815 (94 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 28-32: Silhouette 0.691→0.605 (62 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 33-37: Silhouette 0.631→0.633 (63 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 38-42: Silhouette 0.603→0.578 (78 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 43-47: Silhouette 0.609→0.630 (75 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 48-52: Silhouette 0.644→0.654 (78 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 53-57: Silhouette 0.673→0.627 (96 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 58-62: Silhouette 0.712→0.705 (66 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - 63+: Silhouette 0.529→0.498 (290 clients)
+2025-09-19 14:58:00 - age_clustering - INFO - Application terminée en 0.25s - 1000/1000 clients assignés
+2025-09-19 14:58:00 - age_clustering - INFO - === APPLICATION DU CLUSTERING ===
+2025-09-19 14:58:00 - age_clustering - INFO - Nouvelles données : (312412, 9)
+2025-09-19 14:58:00 - age_clustering - INFO - PROFIL DONNÉE - Âges: 18 à 100 ans (μ=49.9±20.2)
+2025-09-19 15:00:54 - age_clustering - INFO - === MONITORING APPLICATION ===
+2025-09-19 15:00:54 - age_clustering - INFO - 23-27: Silhouette 0.802→0.802 (27587 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 28-32: Silhouette 0.691→0.691 (23275 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 33-37: Silhouette 0.631→0.631 (22537 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 38-42: Silhouette 0.603→0.603 (23589 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 43-47: Silhouette 0.609→0.609 (24199 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 48-52: Silhouette 0.644→0.644 (23227 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 53-57: Silhouette 0.673→0.673 (24585 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 58-62: Silhouette 0.712→0.712 (23328 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - 63+: Silhouette 0.529→0.530 (92075 clients)
+2025-09-19 15:00:54 - age_clustering - INFO - Application terminée en 173.79s - 312412/312412 clients assignés
+2025-09-19 15:10:24 - age_clustering - INFO - AgeClusterer initialisé - Version: 20250919_151024
+2025-09-19 15:10:24 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-09-19 15:10:24 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-09-19 15:10:24 - age_clustering - INFO - Chargement modèle depuis : /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-09-19 15:10:24 - age_clustering - INFO - === MODÈLE CHARGÉ AVEC SUCCÈS ===
+2025-09-19 15:10:24 - age_clustering - INFO - Version: 20250919_134217
+2025-09-19 15:10:24 - age_clustering - INFO - Date entraînement: 2025-09-19T13:52:19.631915
+2025-09-19 15:10:24 - age_clustering - INFO - Nb échantillons: 312412
+2025-09-19 15:10:24 - age_clustering - INFO - Score silhouette moyen: 0.655
+2025-09-19 15:10:44 - age_clustering - INFO - AgeClusterer initialisé - Version: 20250919_151044
+2025-09-19 15:10:44 - age_clustering - INFO - Configuration - Strates: 5 ans, K-range: (2, 6)
+2025-09-19 15:10:44 - age_clustering - INFO - Contraintes - Min cluster: 800, Min strate: 10000
+2025-09-19 15:10:44 - age_clustering - INFO - Chargement modèle depuis : /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-09-19 15:10:44 - age_clustering - INFO - === MODÈLE CHARGÉ AVEC SUCCÈS ===
+2025-09-19 15:10:44 - age_clustering - INFO - Version: 20250919_134217
+2025-09-19 15:10:44 - age_clustering - INFO - Date entraînement: 2025-09-19T13:52:19.631915
+2025-09-19 15:10:44 - age_clustering - INFO - Nb échantillons: 312412
+2025-09-19 15:10:44 - age_clustering - INFO - Score silhouette moyen: 0.655

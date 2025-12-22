@@ -1,0 +1,71 @@
+2025-09-23 15:51:34 - dimension_optimizer - INFO - Logger dimension_optimizer configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/dimension_optimizer_20250923.log
+2025-09-23 15:51:34 - dimension_optimizer - INFO - DimensionOptimizer initialisé - Mode : stratifie
+2025-09-23 15:51:34 - dimension_optimizer - INFO - Début transformation dimensionnelle - Mode stratifie
+2025-09-23 15:51:34 - dimension_optimizer - INFO - Shape initiale : (312440, 30)
+2025-09-23 15:51:35 - dimension_optimizer - INFO - Transformation situation_composite : 2 colonnes
+2025-09-23 15:51:35 - dimension_optimizer - INFO - Transformation age : 1 colonnes
+2025-09-23 15:51:35 - dimension_optimizer - INFO - Transformation revenu : 1 colonnes
+2025-09-23 15:51:35 - dimension_optimizer - INFO - Transformation enfants : 2 colonnes
+2025-09-23 15:51:36 - dimension_optimizer - INFO - Transformation logement : 2 colonnes
+2025-09-23 15:51:36 - dimension_optimizer - INFO - Transformation terminée : (312440, 9)
+2025-09-23 15:51:36 - dimension_optimizer - INFO - Dimensions créées : 8
+2025-09-23 15:51:36 - dimension_optimizer - INFO - Colonnes finales : ['Situation_Couple', 'Situation_Celibataire', 'AGE', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']
+2025-09-23 16:05:59 - dimension_optimizer - INFO - Logger dimension_optimizer configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/dimension_optimizer_20250923.log
+2025-09-23 16:05:59 - dimension_optimizer - INFO - DimensionOptimizer initialisé - Mode : stratifie
+2025-09-23 16:05:59 - dimension_optimizer - INFO - Début transformation dimensionnelle - Mode stratifie
+2025-09-23 16:05:59 - dimension_optimizer - INFO - Shape initiale : (312440, 30)
+2025-09-23 16:06:00 - dimension_optimizer - INFO - Transformation situation_composite : 2 colonnes
+2025-09-23 16:06:00 - dimension_optimizer - INFO - Transformation age : 1 colonnes
+2025-09-23 16:06:00 - dimension_optimizer - INFO - Transformation revenu : 1 colonnes
+2025-09-23 16:06:00 - dimension_optimizer - INFO - Transformation enfants : 2 colonnes
+2025-09-23 16:06:00 - dimension_optimizer - INFO - Transformation logement : 2 colonnes
+2025-09-23 16:06:01 - dimension_optimizer - INFO - Transformation terminée : (312440, 9)
+2025-09-23 16:06:01 - dimension_optimizer - INFO - Dimensions créées : 8
+2025-09-23 16:06:01 - dimension_optimizer - INFO - Colonnes finales : ['Situation_Couple', 'Situation_Celibataire', 'AGE', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']
+2025-09-23 16:16:21 - dimension_optimizer - INFO - DimensionOptimizer initialisé - Mode : stratifie
+2025-09-23 16:16:21 - dimension_optimizer - INFO - Début transformation dimensionnelle - Mode stratifie
+2025-09-23 16:16:21 - dimension_optimizer - INFO - Shape initiale : (312440, 30)
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Transformation situation_composite : 2 colonnes
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Transformation age : 1 colonnes
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Transformation revenu : 1 colonnes
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Transformation enfants : 2 colonnes
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Transformation logement : 2 colonnes
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Transformation terminée : (312440, 9)
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Dimensions créées : 8
+2025-09-23 16:16:23 - dimension_optimizer - INFO - Colonnes finales : ['Situation_Couple', 'Situation_Celibataire', 'AGE', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']
+2025-09-23 16:21:15 - dimension_optimizer - INFO - Logger dimension_optimizer configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/dimension_optimizer_20250923.log
+2025-09-23 16:21:15 - dimension_optimizer - INFO - DimensionOptimizer initialisé - Mode : stratifie
+2025-09-23 16:21:15 - dimension_optimizer - INFO - Début transformation dimensionnelle - Mode stratifie
+2025-09-23 16:21:15 - dimension_optimizer - INFO - Shape initiale : (312440, 30)
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Transformation situation_composite : 2 colonnes
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Transformation age : 1 colonnes
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Transformation revenu : 1 colonnes
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Transformation enfants : 2 colonnes
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Transformation logement : 2 colonnes
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Transformation terminée : (312440, 9)
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Dimensions créées : 8
+2025-09-23 16:21:17 - dimension_optimizer - INFO - Colonnes finales : ['Situation_Couple', 'Situation_Celibataire', 'AGE', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']
+2025-09-23 16:35:33 - dimension_optimizer - INFO - Logger dimension_optimizer configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/dimension_optimizer_20250923.log
+2025-09-23 16:35:33 - dimension_optimizer - INFO - DimensionOptimizer initialisé - Mode : stratifie
+2025-09-23 16:35:33 - dimension_optimizer - INFO - Début transformation dimensionnelle - Mode stratifie
+2025-09-23 16:35:33 - dimension_optimizer - INFO - Shape initiale : (312440, 30)
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Transformation situation_composite : 2 colonnes
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Transformation age : 1 colonnes
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Transformation revenu : 1 colonnes
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Transformation enfants : 2 colonnes
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Transformation logement : 2 colonnes
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Transformation terminée : (312440, 9)
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Dimensions créées : 8
+2025-09-23 16:35:35 - dimension_optimizer - INFO - Colonnes finales : ['Situation_Couple', 'Situation_Celibataire', 'AGE', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']
+2025-09-23 16:49:31 - dimension_optimizer - INFO - Logger dimension_optimizer configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/dimension_optimizer_20250923.log
+2025-09-23 16:49:31 - dimension_optimizer - INFO - DimensionOptimizer initialisé - Mode : stratifie
+2025-09-23 16:49:31 - dimension_optimizer - INFO - Début transformation dimensionnelle - Mode stratifie
+2025-09-23 16:49:31 - dimension_optimizer - INFO - Shape initiale : (312440, 30)
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Transformation situation_composite : 2 colonnes
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Transformation age : 1 colonnes
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Transformation revenu : 1 colonnes
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Transformation enfants : 2 colonnes
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Transformation logement : 2 colonnes
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Transformation terminée : (312440, 9)
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Dimensions créées : 8
+2025-09-23 16:49:33 - dimension_optimizer - INFO - Colonnes finales : ['Situation_Couple', 'Situation_Celibataire', 'AGE', 'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire', 'Logement_NonProprietaire']

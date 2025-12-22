@@ -1,0 +1,132 @@
+2025-10-13 10:52:21 - advanced_pipeline - INFO - Logger advanced_pipeline configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/advanced_pipeline_20251013.log
+2025-10-13 10:52:21 - advanced_pipeline - INFO - AdvancedPipeline initialisé - Mode: prod, Clustering: stratifie
+2025-10-13 10:52:21 - advanced_pipeline - INFO - Force retrain: False
+2025-10-13 10:52:21 - advanced_pipeline - INFO - === DÉMARRAGE PIPELINE AVANCÉ ===
+2025-10-13 10:52:21 - advanced_pipeline - INFO - Étape 1: Extraction données
+2025-10-13 10:54:53 - advanced_pipeline - INFO - Données extraites: (312707, 30)
+2025-10-13 10:54:53 - advanced_pipeline - INFO - Étape 2: Optimisation dimensions
+2025-10-13 10:54:54 - advanced_pipeline - INFO - Dimensions optimisées: (312707, 9)
+2025-10-13 10:54:54 - advanced_pipeline - INFO - === CLUSTERING AVEC GESTION MODÈLES ===
+2025-10-13 10:54:54 - advanced_pipeline - INFO - Modèle existant trouvé: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-10-13 10:54:54 - advanced_pipeline - INFO - === MÉTRIQUES DÉTAILLÉES DU MODÈLE ===
+2025-10-13 10:54:54 - advanced_pipeline - INFO - 📊 MODÈLE EXISTANT:
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Version: 20250919_134217
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Date entraînement: 2025-09-19T13:52:19.631915
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Échantillons entraînement: 312,412
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Features entraînement: 7
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Silhouette moyenne: 0.655
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Min/Max silhouette: 0.529 / 0.802
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Clusters créés: 50
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Strates viables: 10
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Strates cluster unique: 1
+2025-10-13 10:54:54 - advanced_pipeline - INFO - 👥 PROFIL DÉMOGRAPHIQUE MODÈLE:
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Âge moyen entraînement: 49.9 ± 20.2
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Âge min/max entraînement: 18 / 100
+2025-10-13 10:54:54 - advanced_pipeline - INFO - 📈 NOUVELLES DONNÉES:
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Échantillons actuels: 312,707
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Features actuelles: 8
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Âge moyen actuel: 49.9 ± 20.3
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Âge min/max actuel: 18 / 100
+2025-10-13 10:54:54 - advanced_pipeline - INFO - ⚖️  COMPARAISON MODÈLE vs NOUVELLES DONNÉES:
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Dérive âge moyen: 0.0 ans
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Dérive écart-type âge: 0.0
+2025-10-13 10:54:54 - advanced_pipeline - INFO -   Ratio volume: 1.00x (312,707 vs 312,412)
+2025-10-13 10:54:54 - advanced_pipeline - INFO - 🧪 TEST APPLICATION MODÈLE:
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Échantillon testé: 1,000
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Clients clusterisés: 1,000 (100.0%)
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Clients non-clusterisés: 0 (0.0%)
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Strates actives: 10
+2025-10-13 10:54:55 - advanced_pipeline - INFO -     - 63+: 297 clients
+2025-10-13 10:54:55 - advanced_pipeline - INFO -     - 23-27: 88 clients
+2025-10-13 10:54:55 - advanced_pipeline - INFO -     - 18-22: 84 clients
+2025-10-13 10:54:55 - advanced_pipeline - INFO -     - 38-42: 82 clients
+2025-10-13 10:54:55 - advanced_pipeline - INFO -     - 53-57: 82 clients
+2025-10-13 10:54:55 - advanced_pipeline - INFO - 🚨 SIGNAUX POUR DÉCISION MANUELLE:
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   ✅ AUCUNE ALERTE - Modèle semble adapté aux nouvelles données
+2025-10-13 10:54:55 - advanced_pipeline - INFO - 📋 RÉSUMÉ DÉCISIONNEL:
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Âge du modèle: 23 jours
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Qualité modèle: Bonne
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Dérive détectée: Non
+2025-10-13 10:54:55 - advanced_pipeline - INFO -   Couverture: Bonne
+2025-10-13 10:54:55 - advanced_pipeline - INFO - APPLICATION MODÈLE EXISTANT
+2025-10-13 10:57:46 - advanced_pipeline - INFO - Étape 4: Scoring clients
+2025-10-13 10:58:06 - advanced_pipeline - INFO - Scoring terminé: (311624, 61)
+2025-10-13 10:58:06 - advanced_pipeline - INFO - Persistance résultats en base
+2025-10-13 10:58:06 - advanced_pipeline - ERROR - Erreur persistance: 'AdvancedBankingPipeline' object has no attribute '_prepare_spark_dataframe'
+2025-10-13 10:58:06 - advanced_pipeline - ERROR - Échec écriture de secours: local variable 'spark_df' referenced before assignment
+2025-10-13 10:58:06 - advanced_pipeline - ERROR - ERREUR PIPELINE: local variable 'spark_df' referenced before assignment
+2025-10-13 11:11:35 - advanced_pipeline - INFO - Logger advanced_pipeline configuré - Fichier: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/logs/advanced_pipeline_20251013.log
+2025-10-13 11:11:35 - advanced_pipeline - INFO - AdvancedPipeline initialisé - Mode: prod, Clustering: stratifie
+2025-10-13 11:11:35 - advanced_pipeline - INFO - Force retrain: False
+2025-10-13 11:11:35 - advanced_pipeline - INFO - === DÉMARRAGE PIPELINE AVANCÉ ===
+2025-10-13 11:11:35 - advanced_pipeline - INFO - Étape 1: Extraction données
+2025-10-13 11:13:13 - advanced_pipeline - INFO - Données extraites: (312707, 30)
+2025-10-13 11:13:13 - advanced_pipeline - INFO - Étape 2: Optimisation dimensions
+2025-10-13 11:13:14 - advanced_pipeline - INFO - Dimensions optimisées: (312707, 9)
+2025-10-13 11:13:14 - advanced_pipeline - INFO - === CLUSTERING AVEC GESTION MODÈLES ===
+2025-10-13 11:13:14 - advanced_pipeline - INFO - Modèle existant trouvé: /data/FCP10/Donnees/MC/explo/FCP10_MLCDP_WAX647/code/Prod/SEGPOTDYN/models/age_clustering_20250919_134217.pkl
+2025-10-13 11:13:14 - advanced_pipeline - INFO - === MÉTRIQUES DÉTAILLÉES DU MODÈLE ===
+2025-10-13 11:13:14 - advanced_pipeline - INFO - 📊 MODÈLE EXISTANT:
+2025-10-13 11:13:14 - advanced_pipeline - INFO -   Version: 20250919_134217
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Date entraînement: 2025-09-19T13:52:19.631915
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Échantillons entraînement: 312,412
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Features entraînement: 7
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Silhouette moyenne: 0.655
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Min/Max silhouette: 0.529 / 0.802
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Clusters créés: 50
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Strates viables: 10
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Strates cluster unique: 1
+2025-10-13 11:13:15 - advanced_pipeline - INFO - 👥 PROFIL DÉMOGRAPHIQUE MODÈLE:
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Âge moyen entraînement: 49.9 ± 20.2
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Âge min/max entraînement: 18 / 100
+2025-10-13 11:13:15 - advanced_pipeline - INFO - 📈 NOUVELLES DONNÉES:
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Échantillons actuels: 312,707
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Features actuelles: 8
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Âge moyen actuel: 49.9 ± 20.3
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Âge min/max actuel: 18 / 100
+2025-10-13 11:13:15 - advanced_pipeline - INFO - ⚖️  COMPARAISON MODÈLE vs NOUVELLES DONNÉES:
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Dérive âge moyen: 0.0 ans
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Dérive écart-type âge: 0.0
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Ratio volume: 1.00x (312,707 vs 312,412)
+2025-10-13 11:13:15 - advanced_pipeline - INFO - 🧪 TEST APPLICATION MODÈLE:
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Échantillon testé: 1,000
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Clients clusterisés: 1,000 (100.0%)
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Clients non-clusterisés: 0 (0.0%)
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Strates actives: 10
+2025-10-13 11:13:15 - advanced_pipeline - INFO -     - 63+: 297 clients
+2025-10-13 11:13:15 - advanced_pipeline - INFO -     - 23-27: 88 clients
+2025-10-13 11:13:15 - advanced_pipeline - INFO -     - 18-22: 84 clients
+2025-10-13 11:13:15 - advanced_pipeline - INFO -     - 38-42: 82 clients
+2025-10-13 11:13:15 - advanced_pipeline - INFO -     - 53-57: 82 clients
+2025-10-13 11:13:15 - advanced_pipeline - INFO - 🚨 SIGNAUX POUR DÉCISION MANUELLE:
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   ✅ AUCUNE ALERTE - Modèle semble adapté aux nouvelles données
+2025-10-13 11:13:15 - advanced_pipeline - INFO - 📋 RÉSUMÉ DÉCISIONNEL:
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Âge du modèle: 23 jours
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Qualité modèle: Bonne
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Dérive détectée: Non
+2025-10-13 11:13:15 - advanced_pipeline - INFO -   Couverture: Bonne
+2025-10-13 11:13:15 - advanced_pipeline - INFO - APPLICATION MODÈLE EXISTANT
+2025-10-13 11:16:05 - advanced_pipeline - INFO - Étape 4: Scoring clients
+2025-10-13 11:16:25 - advanced_pipeline - INFO - Scoring terminé: (311624, 61)
+2025-10-13 11:16:25 - advanced_pipeline - INFO - Persistance résultats en base
+2025-10-13 11:16:25 - advanced_pipeline - INFO - Index(['ID_DWR_CLI_CIAL', 'Situation_Couple', 'Situation_Celibataire', 'AGE',
+       'REVENU_Score', 'Enfants_Avec', 'Enfants_Sans', 'Logement_Proprietaire',
+       'Logement_NonProprietaire', 'CLUSTER_STRATE', 'CLUSTER_LOCAL',
+       'CLUSTER_GLOBAL', 'CD_NOTE_UNVRS_ASSU', 'CD_NOTE_UNVRS_CRED',
+       'CD_NOTE_UNVRS_EPRGN', 'CD_NOTE_UNVRS_SERV', 'CD_NOTE_POIDS_UNVRS',
+       'CD_NOTE_MIRE', 'PNB_ASSU', 'PNB_COLL', 'PNB_CRED', 'PNB_SERV',
+       'SLD_DAV', 'EP_LIQUIDE', 'EP_STABLE', 'frequency', 'amount', 'recency',
+       'PNB_TOTAL', 'TOTAL_EPARGNE', 'EP_RATIO', 'WEIGHT_PNB_COLL',
+       'WEIGHT_PNB_CRED', 'WEIGHT_PNB_SERV', 'WEIGHT_PNB_ASSU',
+       'PNB_COLL_NORM', 'PNB_COLL_WEIGHTED', 'PNB_CRED_NORM',
+       'PNB_CRED_WEIGHTED', 'PNB_SERV_NORM', 'PNB_SERV_WEIGHTED',
+       'PNB_ASSU_NORM', 'PNB_ASSU_WEIGHTED', 'CLIENT_SCORE', 'PNB_COLL_MEDIAN',
+       'PNB_CRED_MEDIAN', 'PNB_SERV_MEDIAN', 'PNB_ASSU_MEDIAN',
+       'EP_RATIO_MEDIAN', 'POTENTIAL_PNB_COLL', 'POTENTIAL_PNB_CRED',
+       'POTENTIAL_PNB_SERV', 'POTENTIAL_PNB_ASSU', 'TOTAL_POTENTIAL',
+       'SCORE_MEDIAN', 'SCORE_Q25', 'SCORE_Q75', 'SEGMENT_PNB', 'SEGMENT_MIRE',
+       'SEGMENT_FINAL', 'SEGMENTATION_FINALE'],
+      dtype='object')
+2025-10-13 11:16:25 - advanced_pipeline - ERROR - Erreur persistance: 'AdvancedBankingPipeline' object has no attribute '_prepare_spark_dataframe'
+2025-10-13 11:16:25 - advanced_pipeline - ERROR - Échec écriture de secours: local variable 'spark_df' referenced before assignment
+2025-10-13 11:16:25 - advanced_pipeline - ERROR - ERREUR PIPELINE: local variable 'spark_df' referenced before assignment
